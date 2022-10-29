@@ -32,52 +32,10 @@
  <!-- 
 
           <div class="custom-heading">
-            <h5 class="sub-heading">Sub Heading</h5>
+            <h5 class="sub-heading mx-0">Sub Heading</h5>
             <h3 class="heading">Main Heading</h3>
           </div>
   -->
-  <!-- <header class="custom-header py-xl-3 py-2">
-    <div class="container">
-      <nav class="navbar py-0">
-        <a class="navbar-brand ms-0 py-0" href="#">LOGO HERE</a>
-        <div class="navbar-header me-0">
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-            aria-controls="offcanvasExample">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="offcanvasExample"
-          aria-labelledby="offcanvasExampleLabel">
-          <div class="offcanvas-header custom-offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body custom-offcanvas-body">
-            <div>
-              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
-              etc.
-            </div>
-            <div class="dropdown mt-3">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                Dropdown button
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header> -->
-
-
-
   <header class="custom-header">
     <div class="container custom-container">
       <div class="row">
@@ -87,15 +45,25 @@
                 <img src="./images/header-logo.webp" alt="Good Web Design's Logo">
               </a>
               <div class="custom-navbar-right me-0">
-                <a class="custom-navbar-tel" href="tel:888.365.1333">
-                  <span class="demo"><img src="./images/header-call-icon.png" alt="Header Call Icon"></span>
-                  <p class="demo d-none d-md-block">888.365.1333</p>
-                </a>
                 <a class="custom-button" href="javascript:void(0)">Start a project</a>
+                <div class="lang-select-option d-flex align-items-center">
+                  <span class="country-flag">
+                    <img src="./images/header-flag.webp" alt="Flag">
+                  </span>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>English</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
                 <button class="navbar-toggler custom-navbar-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
+                  <div class="icon-bar-wrap">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </div>
+                 <span class="button-text">Menu</span>
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                   <div class="offcanvas-header">

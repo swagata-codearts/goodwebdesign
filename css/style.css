@@ -142,8 +142,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-primary);
   font-weight: 700;
   font-size: 14px;
+  height: 56px;
   justify-content: center;
-  line-height: 51px;
+  line-height: 26px;
   padding: 0 43px;
   text-transform: capitalize;
 }
@@ -157,8 +158,24 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-secondary);
   font-weight: 300;
   line-height: 36px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding: 0 14px;
+  position: relative;
   text-transform: uppercase;
+  width: fit-content;
+}
+.custom-heading .sub-heading::after,
+.custom-heading .sub-heading::before {
+  content: "/";
+  position: absolute;
+  top: 48%;
+  transform: translateY(-50%);
+}
+.custom-heading .sub-heading::before {
+  left: 0;
+}
+.custom-heading .sub-heading::after {
+  right: 0;
 }
 .custom-heading .heading {
   color: var(--c-secondary);
