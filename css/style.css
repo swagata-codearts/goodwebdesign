@@ -24,11 +24,60 @@
   --c-black-600: #333333;
   --c-black-500: #464646;
 
-  --ff-primary: 'Montserrat', sans-serif;
-  --ff-secondary: 'Montserrat', sans-serif;
-  --ff-tertiary: 'Montserrat', sans-serif;
+  --ff-primary: 'Gotham';
+  --ff-secondary: 'Beatrice';
+  --ff-tertiary: 'Sailec';
 }
-
+/* ******* Font Face Rule ******* */
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Beatrice';
+  src: url('../fonts/Beatrice-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Beatrice';
+  src: url('../fonts/Beatrice-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sailec';
+  src: url('../fonts/Sailec-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 /******** CSS Resets ********/
 * {
