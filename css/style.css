@@ -148,10 +148,25 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
 }
 .custom-button:hover {
-  color: var(--c-white-900);
   background-color: var(--c-tertiary);
+  color: var(--c-white-900);
 }
-
+.custom-heading .sub-heading {
+  color: var(--c-primary);
+  font-size: 14px;
+  font-family: var(--ff-secondary);
+  font-weight: 300;
+  line-height: 36px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.custom-heading .heading {
+  color: var(--c-secondary);
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 64px;
+  text-transform: capitalize;
+}
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ toggle-nav-css-start =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ toggle-nav-css-end =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
