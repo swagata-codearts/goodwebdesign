@@ -72,17 +72,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /******** Utility Classes ********/
-
 .container {
   max-width: 1440px;
 }
-
 
 /* ******* Custom Properties ******* */
 .custom-pad {
   padding: 60px 0;
 }
-
 
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ toggle-nav-css-start =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 .navbar-default .navbar-toggler .icon-bar {
