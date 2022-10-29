@@ -18,8 +18,9 @@
 
 
 .custom-banner {
-    padding-top: 120px;
+    padding: 150px 0;
     position: relative;
+    overflow-x: hidden;
 }
 
 .custom-banner-content h2 {
@@ -40,7 +41,6 @@
     -webkit-animation: float 6s ease-in-out infinite;
     animation: float 6s ease-in-out infinite;
 }
-
 
 @keyframes draw {
     to {
@@ -112,6 +112,7 @@
 .circuit-no-fill-3{
     animation-duration: 10s;
 }
+
 .circuit-bottom-group {
     fill: none;
     stroke: black;
@@ -125,9 +126,27 @@
     stroke-width: 2px;
     width: 115px;
 }
-
-
-
+.pattern-animations-right {
+    position: absolute;
+    right: 100px;
+    top: -40px;
+    transform: rotate(-90deg);
+    z-index: -1;
+  }
+  .pattern-animations-right-2 {
+    top: 50px;
+  }
+.circuit-no-fill-right-2{
+    animation-duration: 10s;
+    animation-delay: 0.7s;
+}
+.pattern-animations-right-3 {
+    top: 140px;
+  }
+.circuit-no-fill-right-3{
+    animation-duration: 18s;
+    animation-delay: 0.4s;
+  }
 @-webkit-keyframes float {
     0% {
 
@@ -176,7 +195,18 @@
     top: 250px;
     left: -10%;
   }
-
+  .pattern-animations-right.pattern-animations-right-4 {
+    top: 210px;
+    right: 150px;
+    transform: rotate(-270deg);
+  }
+  .circuit-no-fill-right-4{
+    animation-duration: 9s;
+    animation-delay: 0.8s;
+  }
+  .pattern-animations-right.pattern-animations-right-5 {
+    top: 320px;
+  }
 @media (min-width: 1920px) and (max-width: 2500px) {}
 
 @media (min-width: 1600px) and (max-width: 1920px) {}
