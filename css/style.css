@@ -3,51 +3,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /******** Color Schemes ********/
-/*
+
 :root {
-  --c-primary-dark: #FC6400;
-  --c-white: #ffffff;
-  --c-blue: #0012A2;
-  --c-red: #F12D2D;
-  --c-black-text: #000000;
-  --c-light-grey: #C0C0C0;
-  --c-dark-grey: #4F4F4F;
-  --c-primary-text: #FF5600;
-  --c-secondary-text: #2D2D2D;
-  --c-semi-grey: #666666;
+  --c-primary: #e31e25;
+  --c-secondary: #223354;
+  --c-tertiary: #1ec2ed;
+  --c-primary-alt: #df1d24;
+
+  --c-white-900: #ffffff;
+  --c-white-800: #e5e5e5;
+  --c-white-700: #dedede;
+  --c-white-750: #dcdbdb;
+
+  --c-grey-500: #5d5d5d;
+  --c-grey-400: #737373;
+
+  --c-black-900: #000000;
+  --c-black-800: #141414;
+  --c-black-700: #212529;
+  --c-black-600: #333333;
+  --c-black-500: #464646;
+
   --ff-primary: 'Montserrat', sans-serif;
+  --ff-secondary: 'Montserrat', sans-serif;
+  --ff-tertiary: 'Montserrat', sans-serif;
 }
-*/
+
 
 /******** CSS Resets ********/
 * {
   padding: 0;
   margin: 0 auto;
 }
-
 ul {
   margin: 0;
   padding: 0;
 }
-
 li {
   list-style: none;
 }
-
 a:focus, a:hover {
   outline: none;
 }
-
 a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 p {
   margin: 0;
   padding: 0;
@@ -56,25 +61,22 @@ p {
   line-height: 18px;
   font-weight: 400;
 }
-
 body {
-  font-family: var(--ff-primary);
-  font-size: 14px;
-  color: var(--c-black-text);
+  color: var(--c-black-600);
+  font-family: var(--ff-secondary);
+  font-size: 18px;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-primary);
   margin-bottom: 0;
 }
 
 /******** Utility Classes ********/
-/*
+
 .container {
-  width: 100%;
-  max-width: 1360px;
+  max-width: 1440px;
 }
-*/
+
 
 /* ******* Custom Properties ******* */
 .custom-pad {
