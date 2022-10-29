@@ -174,7 +174,7 @@
   padding: 4px 0 1px;
 }
 .custom-navbar-toggle.toggle-wrap .button-text {
-  display: none;
+  visibility: hidden;
 }
 .lang-select-option {
   margin: 0 40px 0 56px;  
