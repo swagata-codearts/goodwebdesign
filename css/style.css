@@ -129,6 +129,25 @@ h1, h2, h3, h4, h5, h6 {
 .custom-pad {
   padding: 60px 0;
 }
+.custom-button {
+  align-items: center;
+  background-color: var(--c-primary);
+  border: 1px solid transparent;
+  border-radius: 50px;
+  color: var(--c-white-900);
+  display: inline-flex;
+  font-family: var(--ff-primary);
+  font-weight: 700;
+  font-size: 14px;
+  justify-content: center;
+  line-height: 51px;
+  padding: 0 43px;
+  text-transform: capitalize;
+}
+.custom-button:hover {
+  color: var(--c-white-900);
+  background-color: var(--c-tertiary);
+}
 
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ toggle-nav-css-start =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 .navbar-toggler {
