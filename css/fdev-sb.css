@@ -43,10 +43,6 @@
 .custom-navbar-tel span {
   padding-right: 15px;
 }
-
-.navbar-toggler {
-
-}
 .custom-navbar-toggle .icon-bar-wrap {
   display: flex;
   flex-direction: column;
@@ -196,6 +192,13 @@
   text-shadow: none;
 }
 
+/* Footer */
+.custom-footer {
+  background-color: var(--c-black-800);
+}
+.custom-footer .custom-heading .heading {
+  color: var(--c-white-900);
+}
 
 @media (min-width: 1920px) and (max-width: 2500px){}
 
