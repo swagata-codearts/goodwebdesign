@@ -215,6 +215,12 @@
     background-color: var(--c-white-900);
     border: 2px solid var(--c-white-700);
     border-radius: 10px;
+    transform: translateY(0px);
+    transition: all 0.3s ease-in-out;
+  }
+  .cus-quick-service-box:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 20px 19px rgba(0,0,0,0.06);
   }
   .custom-quick-services {
     position: relative;
@@ -233,6 +239,26 @@
     background-size: 101% 100%;
     background-image: url(../images/banner-bottom-bg.webp);
     top: -219px;
+  }
+  .cus-quick-ser-icon {
+    margin-bottom: 16px;
+  }
+  .cus-quick-ser-content a {
+    font-size: 19px;
+    font-weight: 500;
+    font-family: var(--ff-primary);
+    color: var(--c-secondary);
+    line-height: 25px;
+    margin-bottom: 34px;
+    display: flex;
+    min-height: 75px;
+  }
+  .cus-quick-ser-content p {
+    line-height: 28px;
+    color: var(--c-black-600);
+  }
+  .cus-quick-ser-icon img {
+    height: 50px;
   }
 
 @media (min-width: 1920px) and (max-width: 2500px) {}
