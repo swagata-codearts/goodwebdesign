@@ -363,6 +363,12 @@
 }
 
 /* TESTIMONIAL SECTION */
+.testimonial-content {
+  padding-top: 78px;
+}
+.custom-tes-item {
+  width: 370px;
+}
 .tes-card-content {
   background-color: var(--c-white-900);
   border: 1px solid var(--c-white-700);
@@ -372,13 +378,59 @@
   align-content: baseline;
   justify-content: flex-end;
   padding: 0 35px 50px 45px;
+  position: relative;
+}
+.tes-card-content::before {
+  content: '';
+  background-image: url(../images/tes-quotes.png);
+  display: inline-block;
+  position: absolute;
+  width: 38px;
+  background-size: contain;
+  height: 32px;
+  background-repeat: no-repeat;
+  top: 50px;
+  left: 45px;
+}
+.tes-card-content::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 16px solid var(--c-white-900);
+  border-right: 32px solid transparent;
+  bottom: -12px;
+}
+.exclamation-remark {
+  margin: 0 0 33px 0;
+}
+.exclamation-remark h5 {
+  font-weight: 500;
+  color: var(--c-secondary);
+  line-height: 34px;
+  font-size: 26px;
 }
 .remark p {
   font-size: 15px;
   line-height: 30px;
 }
-
-
+.tes-client-content  {
+  margin-top: 30px;
+}
+.tes-client-name .client-name {
+  font-weight: 500;
+  color: var(--c-black-600);
+  font-size: 17px;
+  line-height: 22px;
+}
+.tes-client-name .client-designation {
+  display: inline-block;
+  font-size: 12px;
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  color: var(--c-black-600);
+  line-height: 16px;
+}
 
 
 
