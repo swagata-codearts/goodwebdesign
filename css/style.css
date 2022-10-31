@@ -106,7 +106,7 @@ p {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  color: var(--c-black-text);
+  color: var(--c-black-600);
   line-height: 18px;
   font-weight: 400;
 }

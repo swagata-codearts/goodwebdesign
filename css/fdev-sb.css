@@ -362,6 +362,26 @@
   margin-bottom: 58px;
 }
 
+/* TESTIMONIAL SECTION */
+.tes-card-content {
+  background-color: var(--c-white-900);
+  border: 1px solid var(--c-white-700);
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  align-content: baseline;
+  justify-content: flex-end;
+  padding: 0 35px 50px 45px;
+}
+.remark p {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+
+
+
+
 @media (min-width: 1920px) and (max-width: 2500px){}
 
 @media (min-width: 1600px) and (max-width: 1920px){}
