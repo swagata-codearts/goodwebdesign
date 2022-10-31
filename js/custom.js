@@ -1,5 +1,5 @@
 // JavaScript Document
-jQuery('#custom-owl').owlCarousel({
+jQuery('#testimonial-slider').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
