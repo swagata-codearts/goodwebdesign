@@ -7,11 +7,11 @@ jQuery('#testimonial-slider').owlCarousel({
         0:{
             items:1
         },
-        600:{
-            items:1
+        991:{
+            items:2
         },
         1000:{
-            items:1
+            items:3
         }
     }
 });
