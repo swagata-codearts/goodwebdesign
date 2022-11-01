@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 .custom-pad {
   padding: 150px 0;
 }
-.custom-button {
+/* .custom-button {
   align-items: center;
   background-color: var(--c-primary);
   border: 1px solid transparent;
@@ -151,6 +151,72 @@ h1, h2, h3, h4, h5, h6 {
 .custom-button:hover {
   background-color: var(--c-tertiary);
   color: var(--c-white-900);
+} */
+.custom-button {
+  font-family: var(--ff-primary);
+  font-weight: 700;
+  background-color: var(--c-primary);
+  color: var(--c-white-900);
+  position: relative;
+  transform: translate(0);
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-flex;
+  font-size: 14px;
+  height: 56px;
+  line-height: 26px;
+  padding: 0 43px;
+  text-transform: capitalize;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+.custom-button:focus,
+.custom-button:active {
+  outline: none;
+}
+.custom-button:hover {
+  /* background-color: var(--c-tertiary); */
+  color: var(--c-white-900);
+}
+.custom-button:before,
+.custom-button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  z-index: -1;
+  border-radius: inherit;
+  background: inherit;
+}
+.custom-button:before {
+  background: linear-gradient(90deg, #ffc5c8, #b9eafcc5, #ff5c77, #aae1f7, #ffd6d6, #f92121, #c7eefd, #72d1f39b );
+  background-size: 200% 200%;
+  /* visibility: hidden; */
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.custom-button:after {
+  margin: 3px;
+}
+.custom-button:hover:before,
+.custom-button:focus:before {
+  /* visibility: visible; */
+  opacity: 1;
+  animation: rainbow-border 2s linear infinite;
+}
+@keyframes rainbow-border {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
 }
 .custom-heading .sub-heading {
   color: var(--c-primary);
