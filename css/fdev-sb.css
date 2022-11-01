@@ -535,6 +535,77 @@
 .custom-portfolio .portfolio-button {
   margin-top: 85px;
 }
+
+/* SERVICES SECTION */
+.custom-services {
+  background-color: var(--c-black-800);
+}
+.custom-services .custom-heading .heading {
+  color: var(--c-white-900);
+}
+.custom-services .services-wrap .service-box {
+  border: 1px solid var(--c-white-900);
+  padding: 0 55px 10px 40px;
+  width: 480px;
+  height: 328px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.service-box:hover {
+  box-shadow: rgb(0, 0, 0) 35px 35px 20px -20px;
+  background-color: var(--c-black-700);
+  border-color: black !important;
+  transform: translateY(-8px);
+}
+.service-box > * {
+  margin: 0;
+}
+.service-arrow-icon {
+  position: absolute;
+  top: 32px;
+  right: 45px;
+}
+.service-arrow-icon span {
+  display: inline-block;
+  transform: rotate(45deg);
+  font-size: 39px;
+  color: var(--c-white-900);
+}
+.service-box:hover .service-arrow-icon span {
+  animation: shake 0.5s ease-in-out;
+}
+@keyframes shake {
+  0%{
+    transform: scale(1.02) rotate(57deg);
+  }
+  25% {
+    transform: scale(1.02) rotate(33deg);
+  }
+  50% {
+    transform: scale(1.02) rotate(55deg);
+  }
+  75% {
+    transform: scale(1.02) rotate(35deg);
+  }
+  100% {
+    transform: scale(1.02) rotate(45deg);
+  }
+}
+.custom-services .services-wrap .service-box .service-title h4 {
+  font-size: 25px;
+  line-height: 52px;
+  color: var(--c-white-900);
+  text-transform: capitalize;
+}
+.custom-services .services-wrap .service-box .service-content p {
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--c-white-900);
+}
+
 @media (min-width: 1920px) and (max-width: 2500px){}
 
 @media (min-width: 1600px) and (max-width: 1920px){}
