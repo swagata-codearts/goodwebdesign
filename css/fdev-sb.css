@@ -381,7 +381,7 @@
   transition: all 0.3s ease-in-out;
 }
 .custom-testimonial .testimonial-content .custom-tes-item:hover .tes-card-content {
-  box-shadow: 8px 16px 14px #ecececbf, -9px -4px 7px #f6feff;
+  box-shadow: 8px 10px 14px #ebebebbf, -4px -4px 10px #f0f0f0;
   border-color: transparent;
   transform: translate(0, -9px);
 }
