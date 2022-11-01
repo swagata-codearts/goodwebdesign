@@ -439,9 +439,55 @@
   /* bubble-annimations-end */
 /* ==================about-us-end================ */
 
-
-
-
+/* ========tecnology========= */
+.custom-tecnology {
+    position: relative;
+  }
+.about-us-left::before {
+    left: auto;
+    right: 80px;
+  }
+  #tec-owl .owl-stage-outer {
+    padding: 30px 20px;
+  }
+  #tec-owl .owl-dots .owl-dot {
+    height: 8px;
+    width: 8px;
+    background-color: var(--c-white-700);
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  #tec-owl .owl-dots{
+    text-align: center;
+  }
+  #tec-owl .owl-dots .owl-dot.active{
+    background-color:var(--c-primary);
+  }
+  .tecno-modal .modal-dialog {
+    min-width: 50%;
+  }
+  .tecno-modal .modal-header {
+    width: 100%;
+    background-color: var(--c-primary);
+  }
+  .tecno-modal .modal-header h4 {
+    margin-left: 0;
+    color: #fff;
+  }
+  .tecno-modal .btn-close {
+    background-color: #fff;
+  }
+  .tecno-modal .modal-body {
+    width: 100%;
+    padding: 40px 120px;
+  }
+  .tec-modal-frm input {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    height: 50px;
+    padding: 10px;
+  }
 
 
 @media (min-width: 1920px) and (max-width: 2500px) {}
