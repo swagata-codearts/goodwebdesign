@@ -1,9 +1,7 @@
 /******** Google Fonts ********/
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /******** Color Schemes ********/
-
 :root {
   --c-primary: #e31e25;
   --c-secondary: #223354;
@@ -28,6 +26,7 @@
   --ff-secondary: 'Beatrice';
   --ff-tertiary: 'Sailec';
 }
+
 /* ******* Font Face Rule ******* */
 @font-face {
   font-family: 'Gotham';
@@ -132,26 +131,6 @@ h1, h2, h3, h4, h5, h6 {
 .custom-pad {
   padding: 150px 0;
 }
-/* .custom-button {
-  align-items: center;
-  background-color: var(--c-primary);
-  border: 1px solid transparent;
-  border-radius: 50px;
-  color: var(--c-white-900);
-  display: inline-flex;
-  font-family: var(--ff-primary);
-  font-weight: 700;
-  font-size: 14px;
-  height: 56px;
-  justify-content: center;
-  line-height: 26px;
-  padding: 0 43px;
-  text-transform: capitalize;
-}
-.custom-button:hover {
-  background-color: var(--c-tertiary);
-  color: var(--c-white-900);
-} */
 .custom-button {
   font-family: var(--ff-primary);
   font-weight: 700;
@@ -177,7 +156,6 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 .custom-button:hover {
-  /* background-color: var(--c-tertiary); */
   color: var(--c-white-900);
 }
 .custom-button:before,
@@ -197,7 +175,6 @@ h1, h2, h3, h4, h5, h6 {
 .custom-button:before {
   background: linear-gradient(90deg, #ffc5c8, #b9eafcc5, #ff5c77, #aae1f7, #ffd6d6, #f92121, #c7eefd, #72d1f39b );
   background-size: 200% 200%;
-  /* visibility: hidden; */
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -206,7 +183,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-button:hover:before,
 .custom-button:focus:before {
-  /* visibility: visible; */
   opacity: 1;
   animation: rainbow-border 2s linear infinite;
 }
@@ -250,6 +226,3 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 64px;
   text-transform: capitalize;
 }
-/* =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ toggle-nav-css-start =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
-
-/* =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ toggle-nav-css-end =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
