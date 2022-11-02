@@ -795,6 +795,7 @@
   .custom-header .lang-select-option .form-select {padding: 0 30px 0 5px;font-size: 14px;}
   .custom-header .custom-navbar-toggle {padding-left: 25px;}
   .custom-header .custom-navbar-toggle::before {height: 36px;}
+  .custom-header .custom-navbar-right .offcanvas-body .navbar-nav .nav-item .nav-link {font-size: 26px;}
 
   .custom-services .services-wrap {padding-top: 35px;}
   .custom-services .services-wrap [class*="col-"] {padding: 15px 15px !important;}
@@ -857,8 +858,8 @@
   .custom-header .custom-navbar-right .custom-button {height: 39px;padding: 0 16px;font-size: 12px;}
   .custom-header .custom-navbar-right .lang-select-option .country-flag {display: none;}
   .custom-header .custom-navbar-right .lang-select-option {margin: 0 5px 0 5px;}
-
   .custom-header .custom-navbar-right .offcanvas-header img {height: 27px;}
+  .custom-header .custom-navbar-right .offcanvas-body .navbar-nav .nav-item .nav-link {font-size: 22px;}
 
   .custom-portfolio .portfolio-projects .project-title-wrap .title {font-size: 24px;line-height: 26px;}
   .custom-portfolio .portfolio-projects .project-title-wrap .sub-title {font-size: 13px;line-height: 43px;}
@@ -896,10 +897,11 @@
 .custom-heading .sub-heading::after, .custom-heading .sub-heading::before {top: 41%;}
 /*  */
   .custom-header .custom-navbar-right .custom-button, .custom-header .lang-select-option .form-select {display: none;}
-  .custom-navbar-toggle::before {display: none;}
-  .navbar-toggler .icon-bar {width: 25px;height: 2px;}
-  .custom-navbar-toggle.toggle-wrap .icon-bar {width: 25px !important;}
-  .custom-navbar-toggle .icon-bar:nth-child(3) {width: 16px;}
+  .custom-header .custom-navbar-toggle::before {display: none;}
+  .custom-header .navbar-toggler .icon-bar {width: 25px;height: 2px;}
+  .custom-header .custom-navbar-toggle.toggle-wrap .icon-bar {width: 25px !important;}
+  .custom-header .custom-navbar-toggle .icon-bar:nth-child(3) {width: 16px;}
+  .custom-header .custom-navbar-right .offcanvas-body .navbar-nav .nav-item .nav-link {font-size: 22px;}
   
   .custom-portfolio .portfolio-projects .project-title-wrap .sub-title {font-size: 10px;line-height: 36px;}
   .custom-portfolio .portfolio-projects .project-title-wrap .title {font-size: 18px;line-height: 19px;}
