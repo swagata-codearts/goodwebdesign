@@ -133,6 +133,7 @@
 }
 .custom-navbar-toggle .button-text {
   display: inline-block;
+  font-family: var(--ff-primary);
   color: var(--c-black-700);
   font-size: 15px;
   font-weight: 700;
@@ -472,7 +473,7 @@
 }
 .custom-portfolio .portfolio-projects .project::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
   z-index: 9;
@@ -686,6 +687,7 @@
   .custom-testimonial .testimonial-content .custom-tes-item {width: unset;}
   .custom-testimonial.custom-pad {padding-bottom: 70px;}
   .custom-testimonial .testimonial-content {padding-top: 48px;}
+  .custom-testimonial .testimonial-slider .owl-nav {display: flex;}
 
   .custom-cta {background-position: 30%;padding: 70px 0 !important;}
   .custom-cta-content .custom-heading .heading {font-size: 29px;line-height: 45px;margin-bottom: 32px;}
