@@ -432,6 +432,7 @@
   line-height: 16px;
 }
 .custom-testimonial .testimonial-slider .owl-nav {
+  display: none;
   justify-content: center;
   align-items: center;
   gap: 12px;
