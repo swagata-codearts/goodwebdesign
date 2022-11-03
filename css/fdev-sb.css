@@ -806,7 +806,6 @@
 
 .team-member-box {
   border: 6px solid var(--c-white-800);
-  
   position: relative;
 }
 .inner-our-team-wrap .team-member-box:nth-child(2n+1) .member-img {
