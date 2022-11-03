@@ -64,8 +64,8 @@
 .custom-inner-banner h1 {font-size: 45px;margin-top: 6px;}
 .custom-inner-banner h5 {font-size: 14px;}
 .custom-inner-banner {padding: 200px 0 110px 0;}
-.inner-banner-text {padding-left:20px;}
-.inner-banner-button {padding-right:20px;}
+.inner-banner-text {padding-left:20px;text-align: center;}
+.inner-banner-button {padding-right:20px;text-align: center;margin-top: 30px;}
 .inner-banner-button .custom-button::after {top: 18px;right: 32px;}
 .inner-banner-button .custom-button {font-size: 12px;}
 }
@@ -76,8 +76,8 @@
 .custom-button {height: 46px;padding: 0 22px;} 
 .custom-heading .heading {font-size: 28px;line-height: 34px;}
 .custom-heading .sub-heading {margin-bottom: 10px;} 
-.inner-banner-text {padding-left: 0px;text-align: center;}
-.inner-banner-button {padding-right: 0px;text-align: center;margin-top: 30px;}
+.inner-banner-text {padding-left: 0px;}
+.inner-banner-button {padding-right: 0px;}
 .custom-inner-banner {padding: 170px 0 100px 0;}
 .inner-banner-button .custom-button::after {top: 17px;height: 11px;}
 }
