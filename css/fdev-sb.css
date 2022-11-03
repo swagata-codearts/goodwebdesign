@@ -672,9 +672,9 @@
   background-position: center;
   position: relative;
 }
-/* .inner-about-we-are::before {
+.inner-about-we-are::before {
   background-image: url("../images/");
-} */
+}
 .au-image-left  {
   padding: 0 77px 0 0;
   max-height: 690px;
@@ -702,6 +702,13 @@
 }
 .inner-about-we-are .about-us-content {
   padding-left: 40px;
+}
+
+.inner-about-aim::before {
+display: none;
+}
+.inner-about-aim .abt-img-sub::after {
+  background-image: url("../images/");
 }
 
 @media (min-width: 1920px) and (max-width: 2500px){}
