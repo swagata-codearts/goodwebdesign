@@ -1,11 +1,11 @@
 /* HEADER SECTION */
 .homepage .custom-header {
   background-color: transparent;
-}
-.custom-header {
   position: absolute;
   z-index: 999;
   width: 100%;
+}
+.custom-header {
   background-color: var(--c-white-900);
 }
 .custom-header .container-fluid {
@@ -614,6 +614,94 @@
   font-size: 18px;
   line-height: 36px;
   color: var(--c-white-900);
+}
+
+/* +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+= INNER PAGES START +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=*/
+
+/* INNER ABOUT US */
+.au-right::before {
+  right: 90px;
+  left: unset;
+}
+.au-right .abt-img-sub {
+  left: 0;
+  right: unset;
+}
+.custom-paragraph {
+  padding-top: 30px;
+}
+.custom-paragraph p {
+  line-height: 41px;
+  font-size: 18px;
+  padding-bottom: 43px;
+}
+.inner-about-section {
+  background-color: #211f3b;
+}
+.inner-about-section::before {
+  content: '';
+  position: absolute;
+  background-image: url('../images/our-mission-bg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: unset;
+}
+.inner-about-section .custom-heading .heading {
+  color: var(--c-white-900);
+}
+.about-us-content {
+  padding-left: 47px;
+}
+.inner-about-section .custom-paragraph {
+  padding-right: 33px;
+}
+.inner-about-section .custom-paragraph p {
+  color: #efeeff;
+}
+
+.inner-about-we-are {
+  padding: 100px 0 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+/* .inner-about-we-are::before {
+  background-image: url("../images/");
+} */
+.au-image-left  {
+  padding: 0 77px 0 0;
+  max-height: 690px;
+}
+.au-image-left::before  {
+  display: none;
+}
+.au-image-left .abt-img-main {
+  padding: 0 0 0 25px;
+}
+.au-image-left .abt-img-main img {
+  height: 497px;
+  width: 519px;
+  object-position: 43%;
+}
+.au-image-left .abt-img-sub {
+  text-align: right;
+  bottom: 175px;
+  position: relative;
+}
+.au-image-left .abt-img-sub img {
+  width: 395px;
+  height: 360px;
+  object-position: right;
+}
+.inner-about-we-are .about-us-content {
+  padding-left: 40px;
 }
 
 @media (min-width: 1920px) and (max-width: 2500px){}
