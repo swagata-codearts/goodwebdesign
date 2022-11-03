@@ -249,7 +249,7 @@ font-weight: 300;
 .inner-banner-button .custom-button::after {
 position: absolute;
 content: '';
-background-color: var(--c-grey-500);
+background-color: var(--c-grey-400);
 width: 1px;
 height: 14px;
 top: 21px;
