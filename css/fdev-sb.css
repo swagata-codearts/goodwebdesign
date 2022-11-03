@@ -1,8 +1,12 @@
 /* HEADER SECTION */
+.homepage .custom-header {
+  background-color: transparent;
+}
 .custom-header {
   position: absolute;
   z-index: 999;
   width: 100%;
+  background-color: var(--c-white-900);
 }
 .custom-header .container-fluid {
   max-width: 1780px;
