@@ -261,7 +261,7 @@ padding: 275px 0 140px 0;
   background-color: var(--c-white-900);
   color: var(--c-black-800); 
   border-radius: 5px;
-  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  box-shadow: 0 0 50px rgba(0,0,0,0.2);
   font-family: var(--ff-secondary);
   font-size: 14px;
   font-weight: 400;
