@@ -633,6 +633,8 @@
 .custom-paragraph p {
   line-height: 41px;
   font-size: 18px;
+}
+.custom-paragraph p:not(:last-child) {
   padding-bottom: 43px;
 }
 .inner-about-section {
@@ -719,7 +721,9 @@
 .inner-about-we-are .about-us-content {
   padding-left: 40px;
 }
-
+.inner-about-we-are {
+  position: relative;
+}
 .inner-about-aim::before {
   display: none;
 }
@@ -892,6 +896,11 @@
   .custom-get-in-touch-form [class*="col-"]:nth-child(2) {padding-left: 35px;}
 
   .custom-footer-top .footer-col:first-child {width: 36%;}
+
+  .au-image-left {padding: 0 27px 0 0;}
+  .inner-cta-title .title {font-size: 90px;}
+  #shape {left: -95px;}
+  .inner-cta.custom-pad {padding: 95px 0;}
 }
 @media (min-width: 1200px) and (max-width: 1360px){
   .custom-services .services-wrap {padding-top: 65px;}
@@ -920,6 +929,10 @@
   .custom-footer-top {padding: 40px 0 85px;}
   .custom-footer-top .footer-col:first-child {width: 40%;}
   .custom-footer-bottom {padding-top: 44px;}
+
+  .inner-cta-title .title {font-size: 80px;}
+  .inner-cta-content .custom-paragraph {margin-right: 40px;width: 70%;}
+  .inner-our-team-wrap {gap: 80px 0;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -964,6 +977,30 @@
   .custom-footer-bottom .footer-licenses {gap: 15px;}
   .custom-footer-bottom .footer-socials {gap: 10px;}
   .custom-footer-bottom .footer-socials li a span {width: 40px;height: 40px;font-size: 18px;}
+
+  .au-image-left {padding: 0 7px 0 0;}
+  .inner-cta-title .title {font-size: 65px;}
+  .inner-cta-content .custom-paragraph {margin-right: 40px;width: 70%;}
+  .inner-our-team-wrap {gap: 80px 0;}
+  .inner-cta-content.d-flex.align-items-center {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .inner-cta-content .custom-paragraph {
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  #shape {
+    top: -30px;
+    left: -125px;
+  }
+  .inner-our-team-wrap .team-member-box .member-img img {
+    width: 70%;
+  }
+  .inner-our-team-wrap .team-member-box:nth-child(2n+1) {padding: 73px 50px 73px 230px;}
+  .inner-our-team-wrap .team-member-box:nth-child(2n) {padding: 73px 230px 73px 50px;}
+  .inner-our-team-wrap .team-member-box:nth-child(2n) .member-img {right: -200px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -1074,7 +1111,85 @@
   .custom-footer-bottom .footer-copyright p {line-height: 40px;}
   .custom-footer-bottom .footer-socials li a span {width: 40px;height: 40px;font-size: 18px;}
 
-  .au-image-left {padding: 0 0px 0 0;}
+  .inner-about-we-are::before {width: 100%;top: 50%;height: 100%;}
+  .inner-about-we-are .about-us-content {padding: 0 15px 0;}
+  .au-image-left {padding: 0 15px 0 0;}
+  .au-image-left .abt-img-main {padding: 0 0 0 15px;}
+  .inner-about-aim .abt-img-main::after {left: 28%;bottom: 70px;}
+  .au-right{padding: 0;}
+  .au-right .abt-img-main {padding: 0 25px 0 85px;}
+  .au-right .abt-img-main img {height: auto;}
+  .au-right .abt-img-sub {left: 15px;}
+  .au-image-left .abt-img-main img {width: 600px;}
+  .inner-about-section::before, .inner-about-section::after {opacity: 0.5;}
+  .about-us-content {padding: 0 15px 55px;}
+  .inner-about-section {padding-bottom: 100px !important;}
+  .custom-paragraph {padding-top: 20px;}
+  .custom-paragraph p {line-height: 38px;font-size: 17px;}
+  .inner-about-section .custom-paragraph {padding-right: 0;}
+  .inner-cta.custom-pad {padding: 50px 0;}
+  .inner-cta-title .title {
+    font-size: 50px;
+  text-align: center;}
+  .inner-cta-content .custom-paragraph {
+    width: 70%;
+    margin-left: 0;
+    margin-right: auto;
+  }
+  #shape > div {
+    width: 70px;
+    height: 70px;}
+    #shape {
+      width: 70px;
+      height: 70px;}
+      .one {
+        transform: rotateX(90deg) translateZ(35px);
+        -webkit-transform: rotateX(90deg) translateZ(35px);
+      }
+      .four {
+        transform: rotateY(180deg) translateZ(35px);
+        -webkit-transform: rotateY(180deg) translateZ(35px);}
+        .two {
+          transform: translateZ(35px);
+          -webkit-transform: translateZ(35px);}
+          .three {
+            transform: rotateY(90deg) translateZ(35px);
+            -webkit-transform: rotateY(90deg) translateZ(35px);
+          }
+          .five {
+            transform: rotateY(-90deg) translateZ(35px);
+            -webkit-transform: rotateY(-90deg) translateZ(35px);
+          }
+          .six {
+            transform: rotateX(-90deg) translateZ(35px);
+            -webkit-transform: rotateX(-90deg) translateZ(35px);
+          }
+          .inner-cta-title {
+            margin-bottom: 25px;
+          }
+          .inner-cta-content {
+            margin-top: 25px;
+          }
+          .inner-our-team-wrap .team-member-box .member-img img {
+            width: 50%;
+          }
+          .inner-our-team-wrap .team-member-box {
+            margin: 0 !important;
+            padding: 100px 30px 30px 30px !important;
+            position: relative;
+          }
+          .inner-our-team-wrap .team-member-box:nth-child(2n+1) .member-img {
+            left: 30px;
+            top: -115px;
+          }
+          .inner-our-team-wrap .team-member-box:nth-child(2n) .member-img {
+            right: -150px;
+            top: -115px;
+          }
+          .inner-our-team-wrap .team-member-box .member-title .title {
+            font-size: 22px;
+            margin-bottom: 0px;
+          }
 }
 
 @media (max-width: 767.98px){
@@ -1114,6 +1229,29 @@
   .custom-footer-bottom .footer-copyright {padding-top: 10px;}
   .custom-footer-bottom .footer-licenses {padding-bottom: 20px;}
   .custom-footer-bottom .footer-copyright p {line-height: 32px;font-size: 14px;}
+
+  .au-image-left .abt-img-main img {width: 430px;height: 400px;}
+  .au-image-left .abt-img-sub img {width: 340px;height: 250px;}
+  .inner-about-aim .abt-img-main::after {left: 28%;bottom: 50px;}
+  .au-image-left {max-height: 560px;}
+  .inner-cta-title .title {
+    font-size: 46px;
+  }
+  .inner-cta-content {
+    flex-direction: column;
+  }
+  .inner-cta-content .custom-paragraph {
+    width: 100%;
+    margin-left: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  .inner-our-team .custom-heading {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  #shape {left: 0px;}
+  
 }
 
 @media (max-width: 575.98px){
@@ -1160,6 +1298,70 @@
   .custom-footer-top .footer-col p, .custom-footer-top .footer-col .footer-list li {font-size: 15px;}
   .custom-footer-bottom .footer-licenses {padding-bottom: 30px;gap: 8px;flex-direction: column;}
   .custom-footer-bottom .footer-socials li a span {width: 35px;height: 35px;font-size: 15px;}
+
+  .au-image-left .abt-img-sub img {width: 100%;height: auto;}
+  .au-image-left {padding: 0 10px 30px;}
+  .au-image-left .abt-img-sub {bottom: unset;}
+  .au-image-left .abt-img-main {padding: 0 0 20px;}
+  .au-image-left .abt-img-main img {width: 100%;height: auto;}
+  .inner-about-we-are .about-us-content {padding: 0;}
+  .custom-paragraph p {line-height: 32px;font-size: 16px;text-align: center;}
+  .about-us-content .custom-heading {text-align: center;}
+  .inner-about-we-are::before {display: none;}
+  .au-right .abt-img-main {
+    padding: 0;
+  }
+  .au-right .abt-img-sub {
+    left: unset;
+    position: relative;
+    bottom: unset;
+  }
+  .au-right .abt-img-main img {
+    padding-bottom: 15px;}
+    .abt-img-sub img {
+      width: 100%;
+      height: auto;}
+      .about-us-left::before {
+        width: 211px;
+        height: 147px;
+        top: -2px;}
+        .about-us-content {
+          padding: 0 0 30px;
+        }
+        .inner-about-section {
+          padding-bottom: 40px !important;}
+          .au-image-left {
+            max-height: unset;
+          }
+          .inner-cta-title .title {
+            font-size: 36px;
+          }
+          .inner-our-team-wrap .team-member-box .member-title .title {
+            font-size: 18px !important;
+            text-align: center;
+          }
+          .inner-our-team-wrap .team-member-box .member-title .title .position {
+            font-size: 17px;
+          }
+          .inner-our-team-wrap .team-member-box {padding: 150px 15px 15px 15px !important
+          }
+          .inner-our-team-wrap .team-member-box .member-desc .custom-paragraph p {
+            font-size: 15px;
+            line-height: 26px;
+          }
+          .inner-our-team-wrap .team-member-box .member-img {
+            left: 0 !important;
+            top: -115px !important;
+            right: 0 !important;
+            margin: 0 auto;
+            text-align: center;
+          }
+          .inner-our-team-wrap .team-member-box .member-img img {
+            width: 80%;
+            height: 250px;
+object-fit: cover;
+object-position: top;
+          }
 }
 
 @media only screen and (max-width: 480.98px) {}
