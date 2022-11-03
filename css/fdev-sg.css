@@ -24,15 +24,18 @@ padding-bottom: 150px;
 @media (min-width: 1200px) and (max-width: 1366px){
 /*testimonial-iiner-fdev-sg*/
 .custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 100px;}
-.custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 80px;}
 /*testimonial-inner-fdev-sg*/
 }
 @media (min-width: 1024px) and (max-width: 1200px){
-
+/*testimonial-iiner-fdev-sg*/
+.custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 100px;}
+/*testimonial-inner-fdev-sg*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-
+/*testimonial-iiner-fdev-sg*/
+.custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 100px;}
+/*testimonial-inner-fdev-sg*/
 }
 
 @media only screen and (max-width: 991.98px) {    
