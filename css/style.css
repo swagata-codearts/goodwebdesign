@@ -226,3 +226,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 64px;
   text-transform: capitalize;
 }
+/*custom-inner-banner-start-supriyo*/
+.custom-inner-banner {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+position: relative;
+padding: 260px 0 80px 0;
+}
+
+/*custom-inner-banner-end-supriyo*/
