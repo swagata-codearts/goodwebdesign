@@ -16,12 +16,12 @@
 @media (min-width: 1366px) and (max-width: 1600px){
 .custom-inner-banner h1 {font-size: 67px;}
 .inner-banner-text {padding-left: 40px;}
-.inner-banner-button {padding-right: 40px;}
 }
 @media (min-width: 1200px) and (max-width: 1366px){
 .custom-inner-banner h1 {font-size: 64px;}
 .inner-banner-text {padding-left: 40px;}
-.inner-banner-button {padding-right: 40px;}
+.custom-inner-banner .breadcrumb {right: 40px;}
+.custom-inner-banner .breadcrumb {width: 50%;}
 .custom-inner-banner {padding: 140px 0 140px 0;}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -33,8 +33,12 @@
 .custom-inner-banner h1 {font-size: 54px;margin-top: 6px;}
 .custom-inner-banner h5 {font-size: 15px;}
 .inner-banner-text {padding-left: 40px;}
-.inner-banner-button {padding-right: 40px;}
-.inner-banner-button .custom-button::after {top: 21px;}
+.custom-inner-banner .breadcrumb {right: 40px;}
+.custom-inner-banner .breadcrumb {width: 50%;}
+.custom-inner-banner .breadcrumb-item a {font-size: 12px;}
+.custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
+.custom-inner-banner .breadcrumb {font-size: 12px;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {height: 12px;top: 21px;right: 39px;}
 .custom-inner-banner {padding: 140px 0 140px 0;}
 }
 
@@ -47,8 +51,12 @@
 .custom-inner-banner h1 {font-size: 50px;margin-top: 6px;}
 .custom-inner-banner h5 {font-size: 14px;}
 .inner-banner-text {padding-left: 40px;}
-.inner-banner-button {padding-right: 40px;}
-.inner-banner-button .custom-button::after {top: 18px;}
+.custom-inner-banner .breadcrumb {right: 40px;}
+.custom-inner-banner .breadcrumb {width: 50%;}
+.custom-inner-banner .breadcrumb-item a {font-size: 12px;}
+.custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
+.custom-inner-banner .breadcrumb {font-size: 12px;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {height: 12px;top: 21px;right: 39px;}
 .custom-inner-banner {padding: 120px 0 120px 0;}
 }
 
@@ -62,11 +70,14 @@
 .custom-heading .heading {font-size: 38px;line-height: 52px;}
 .custom-inner-banner h1 {font-size: 45px;margin-top: 6px;}
 .custom-inner-banner h5 {font-size: 14px;}
-.custom-inner-banner {padding: 110px 0 110px 0;}
-.inner-banner-text {text-align: center;}
-.inner-banner-button {text-align: center;margin-top: 30px;}
-.inner-banner-button .custom-button::after {top: 18px;right: 35px;}
-.inner-banner-button .custom-button {font-size: 12px;}
+.custom-inner-banner {padding: 110px 0 190px 0;}
+.custom-inner-banner nav {text-align: center;}
+.custom-inner-banner .breadcrumb {right: 40px;}
+.custom-inner-banner .breadcrumb {width: 30%;}
+.custom-inner-banner .breadcrumb-item a {font-size: 12px;}
+.custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
+.custom-inner-banner .breadcrumb {font-size: 12px;top: 20px;right: 0;left: 0;margin: 0 auto;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {height: 12px;top: 21px;right: 39px;}
 }
 
 
@@ -76,9 +87,8 @@
 .custom-heading .heading {font-size: 28px;line-height: 34px;}
 .custom-heading .sub-heading {margin-bottom: 10px;} 
 .inner-banner-text {padding-left: 0px;}
-.inner-banner-button {padding-right: 0px;}
-.custom-inner-banner {padding: 100px 0 100px 0;}
-.inner-banner-button .custom-button::after {top: 17px;height: 11px;}
+.custom-inner-banner {padding: 100px 0 175px 0;}
+.custom-inner-banner .breadcrumb {width: 35%;}
 }
 
 @media (max-width: 575.98px){
@@ -88,14 +98,15 @@
 .custom-heading .heading {font-size: 24px;line-height: 28px;}
 .custom-heading .sub-heading::after, .custom-heading .sub-heading::before {top: 41%;}
 .custom-inner-banner h1 {font-size: 40px;}
-.inner-banner-button {margin-top: 25px;}
-.inner-banner-button .custom-button::after {top: 15px;}
+.custom-inner-banner .breadcrumb {width: 40%;}
 }
 
 @media only screen and (max-width: 480.98px) {	
 .custom-inner-banner h1 {font-size: 40px;margin-top: 4px;}
 .custom-inner-banner h5 {font-size: 12px;}
 .custom-inner-banner h1 {font-size: 30px;}
-.custom-inner-banner {padding: 80px 0 80px 0;}
+.custom-inner-banner .breadcrumb {width: 55%;padding: 15px 0;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {top: 18px;right: 39px;}
+.custom-inner-banner {padding: 80px 0 150px 0;}
 }
 
