@@ -18,13 +18,14 @@
 .inner-banner-text {padding-left: 40px;}
 .custom-inner-banner .breadcrumb {width: 80%;}
 .custom-inner-banner .breadcrumb {right: 40px;}
+.custom-inner-banner {padding: 265px 0 170px 0;}
 }
 @media (min-width: 1200px) and (max-width: 1366px){
 .custom-inner-banner h1 {font-size: 64px;}
 .inner-banner-text {padding-left: 40px;}
 .custom-inner-banner .breadcrumb {right: 40px;}
 .custom-inner-banner .breadcrumb {width: 90%;}
-.custom-inner-banner {padding: 140px 0 140px 0;}
+.custom-inner-banner {padding: 240px 0 140px 0;}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
 .custom-pad {padding: 90px 0;}
@@ -40,7 +41,7 @@
 .custom-inner-banner .breadcrumb-item a {font-size: 12px;}
 .custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
 .custom-inner-banner .breadcrumb {font-size: 12px;}
-.custom-inner-banner {padding: 140px 0 140px 0;}
+.custom-inner-banner {padding: 230px 0 130px 0;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -57,7 +58,7 @@
 .custom-inner-banner .breadcrumb-item a {font-size: 12px;}
 .custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
 .custom-inner-banner .breadcrumb {font-size: 12px;}
-.custom-inner-banner {padding: 120px 0 120px 0;}
+.custom-inner-banner {padding: 190px 0 100px 0;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -70,7 +71,7 @@
 .custom-heading .heading {font-size: 38px;line-height: 52px;}
 .custom-inner-banner h1 {font-size: 45px;margin-top: 6px;}
 .custom-inner-banner h5 {font-size: 14px;}
-.custom-inner-banner {padding: 110px 0 190px 0;}
+.custom-inner-banner {padding: 170px 0 160px 0;}
 .custom-inner-banner nav {text-align: center;}
 .custom-inner-banner .breadcrumb {right: 0px;left:0;margin:0 auto;width: 30%;font-size: 12px;top: 20px;}
 .custom-inner-banner .breadcrumb-item a {font-size: 12px;}
@@ -84,8 +85,8 @@
 .custom-heading .heading {font-size: 28px;line-height: 34px;}
 .custom-heading .sub-heading {margin-bottom: 10px;} 
 .inner-banner-text {padding-left: 0px;}
-.custom-inner-banner {padding: 100px 0 175px 0;}
 .custom-inner-banner .breadcrumb {width: 40%;}
+.custom-inner-banner {padding: 160px 0 160px 0;}
 }
 
 @media (max-width: 575.98px){
@@ -96,6 +97,7 @@
 .custom-heading .sub-heading::after, .custom-heading .sub-heading::before {top: 41%;}
 .custom-inner-banner h1 {font-size: 40px;}
 .custom-inner-banner .breadcrumb {width: 45%;}
+.custom-inner-banner {padding: 150px 0 160px 0;}
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -104,6 +106,5 @@
 .custom-inner-banner h1 {font-size: 30px;}
 .custom-inner-banner .breadcrumb {width: 60%;padding: 15px 0;}
 .custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {top: 18px;right: 39px;}
-.custom-inner-banner {padding: 80px 0 150px 0;}
 }
 

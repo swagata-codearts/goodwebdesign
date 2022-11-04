@@ -7,6 +7,12 @@ text-align: center;
 .custom-testimonial.inner-testimonial.custom-pad {
 padding-bottom: 150px;
 }
+.custom-testimonial.inner-testimonial .testimonial-content .custom-tes-item {
+width: unset;
+}
+.custom-testimonial.inner-testimonial .testimonial-content {
+padding-top: 0 !important;
+}
 /*Testimonial-inner-end-supriyo*/
 /*Business-packages-inner-start-supriyo*/
 .business-about-box {
@@ -204,36 +210,59 @@ text-align: center;
 margin-top: 20px;
 }
 .all-plans-content-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-  }
-  .all-plan-box {
-    text-align: center;
-    width: 19%;
-    padding: 30px 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    min-height: 300px;
-    border-radius: 10px;
-  }
-  .all-plans-content-wrap-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  .all-plans-content h4 {
-    font-family: var(--ff-primary);
-    font-size: 17px;
-    font-weight: 600;
-    color: var(--c-secondary);
-    margin-top: 50px;
-    line-height: 24px;
-  }
-  .all-plans-content {
-    padding: 50px 10px;
-  }
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 60px;
+}
+.all-plan-box {
+text-align: center;
+width: 19%;
+padding: 0px 10px;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+min-height: 290px;
+border-radius: 10px;
+background-color: var(--c-white-900);
+transform: scale(1);
+transition: all 0.3s ease-in-out;
+}
+.all-plan-box:hover {
+transform: scale(1.05);
+cursor:pointer;
+}
+.all-plans-content-wrap-2 {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+.all-plans-content h4 {
+font-family: var(--ff-primary);
+font-size: 17px;
+font-weight: 600;
+color: var(--c-secondary);
+margin-top: 50px;
+line-height: 24px;
+}
+.all-plans-content {
+padding: 50px 10px;
+}
+.all-plans.custom-pad .custom-heading {
+text-align: center;
+}
+.all-plans-content img {
+height: 60px;
+transition: all 0.3s ease-in-out;
+}
+.all-plan-box:hover .all-plans-content img {
+height: 70px;
+cursor: pointer;
+}
+.all-plans.custom-pad {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 /*Business-packages-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -245,48 +274,159 @@ margin-top: 20px;
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
-
+/*Business-packages-inner-fdev-sg*/
+.counter-content .count-number-and-unit.secondary-font {font-size: 40px;}
+.shopping-experience-content .demo {font-size: 16px;}
+.shopping-experience.custom-pad {padding: 800px 0 150px 0;}
+/*Business-packages-inner-fdev-sg*/
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
-/*testimonial-iiner-fdev-sg*/
+/*testimonial-inner-fdev-sg*/
 .custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 100px;}
 /*testimonial-inner-fdev-sg*/
+/*Business-packages-inner-fdev-sg*/
+.counter-content .count-number-and-unit.secondary-font {font-size: 34px;}
+.shopping-experience-content .demo {font-size: 16px;}
+.business-about-box {min-height: 500px;}
+.easy-steps.custom-pad .demo {margin-top: 40px;}
+.easy-steps-round {margin-top: 60px;}
+.shopping-experience-content .demo {padding-top: 35px;}
+.all-plan-box {min-height: 310px;}
+.all-plan-box:hover .all-plans-content img {height: 65px;}
+.shopping-experience.custom-pad {padding: 80px 0 150px 0;}
+.shopping-experience-img-box-2 img {height: 205px;}
+.easy-steps.custom-pad .demo {padding: 0px 200px;}
+/*Business-packages-inner-fdev-sg*/
 }
 @media (min-width: 1024px) and (max-width: 1200px){
-/*testimonial-iiner-fdev-sg*/
+/*testimonial-inner-fdev-sg*/
 .custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 100px;}
 /*testimonial-inner-fdev-sg*/
+/*Business-packages-inner-fdev-sg*/
+.counter-content .count-number-and-unit.secondary-font {font-size: 30px;}
+.shopping-experience-content .demo {font-size: 16px;}
+.easy-steps.custom-pad .demo {margin-top: 40px;}
+.easy-steps-round {margin-top: 60px;}
+.shopping-experience-content .demo {padding-top: 35px;font-size: 14px;line-height: 36px;}
+.all-plan-box {min-height: 310px;}
+.all-plan-box:hover .all-plans-content img {height: 65px;}
+.shopping-experience.custom-pad {padding: 80px 0 150px 0;}
+.shopping-experience-img-box-2 img {height: 205px;}
+.business-about-box {padding: 60px 25px;min-height: 450px;}
+.counter-content ul li img {height: 30px;}
+.shopping-experience-img-box-1 img {width: 85%;}
+.shopping-experience-img-box-2 img {width: 40%;right: 0px;}
+.business-about-box-content .demo {line-height: 30px;padding-top: 25px;font-size: 14px;}
+.all-plans-content h4 {margin-top: 50px;}
+.easy-steps.custom-pad .demo {padding: 0px 100px;}
+.easy-steps-round h5 {font-size: 19px;}
+.all-plans-content-wrap {margin-top: 40px;}
+/*Business-packages-inner-fdev-sg*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-/*testimonial-iiner-fdev-sg*/
+/*testimonial-inner-fdev-sg*/
 .custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 100px;}
 /*testimonial-inner-fdev-sg*/
+/*Business-packages-inner-fdev-sg*/
+.counter-content .count-number-and-unit.secondary-font {font-size: 30px;}
+.shopping-experience-content .demo {font-size: 16px;}
+.easy-steps.custom-pad .demo {margin-top: 30px;font-size: 15px;line-height: 30px;}
+.easy-steps-round {margin-top: 60px;}
+.shopping-experience-content .demo {padding-top: 35px;font-size: 14px;line-height: 36px;}
+.all-plan-box {min-height: 310px;}
+.all-plan-box:hover .all-plans-content img {height: 65px;}
+.shopping-experience.custom-pad {padding: 80px 0 150px 0;}
+.shopping-experience-img-box-2 img {height: 205px;}
+.business-about-box {padding: 60px 25px;min-height: 450px;}
+.counter-content ul li img {height: 30px;}
+.shopping-experience-img-box-1 img {width: 85%;}
+.shopping-experience-img-box-2 img {width: 40%;right: 0px;}
+.business-about-box-content .demo {line-height: 30px;padding-top: 25px;font-size: 14px;}
+.all-plans-content h4 {margin-top: 50px;}
+.easy-steps.custom-pad .demo {padding: 0px 100px;}
+.easy-steps-round h5 {font-size: 19px;}
+.all-plans-content-wrap {margin-top: 40px;}
+.counter-content ul li:last-child {padding-left: 15px;}
+/*Business-packages-inner-fdev-sg*/
 }
 
 @media only screen and (max-width: 991.98px) {    
-/*testimonial-iiner-fdev-sg*/
+/*testimonial-inner-fdev-sg*/
 .custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 80px;}
 /*testimonial-inner-fdev-sg*/
+/*Business-packages-inner-fdev-sg*/
+.counter-content .count-number-and-unit.secondary-font {font-size: 30px;}
+.shopping-experience-content .demo {font-size: 16px;}
+.easy-steps.custom-pad .demo {margin-top: 30px;font-size: 15px;line-height: 30px;}
+.easy-steps-round {margin-top: 60px;}
+.shopping-experience-content .demo {padding-top: 35px;font-size: 14px;line-height: 36px;}
+.all-plan-box {min-height: 240px;}
+.all-plan-box:hover .all-plans-content img {height: 65px;}
+.shopping-experience.custom-pad {padding: 80px 0 80px 0;}
+.shopping-experience-img-box-2 img {height: 205px;}
+.business-about-box {padding: 60px 25px;min-height: 450px;margin-top: 20px;}
+.counter-content ul li img {height: 30px;}
+.shopping-experience-img-box-1 img {width: 85%;}
+.shopping-experience-img-box-2 img {width: 40%;right: 0px;}
+.business-about-box-content .demo {line-height: 30px;padding-top: 25px;font-size: 14px;}
+.all-plans-content h4 {margin-top: 50px;}
+.easy-steps.custom-pad .demo {padding: 0px 0px;}
+.easy-steps-round h5 {font-size: 19px;}
+.all-plans-content-wrap {margin-top: 40px;}
+.counter-content ul li:last-child {padding-left: 15px;}
+.counter-content {padding: 10px 0;}
+.shopping-experience-content {margin-top: 100px;}
+.all-plans-content-wrap {flex-direction: column;}
+.all-plan-box {width: 100%;margin-top: 20px;}
+.all-plan-box:hover {transform: scale(1.01);}
+.all-plans-content-wrap-2 {flex-direction: column;}
+.all-plans-content-wrap-2 {margin-top: 0px;}
+/*Business-packages-inner-fdev-sg*/
 }
 
 @media (max-width: 767.98px){
-/*testimonial-iiner-fdev-sg*/
+/*testimonial-inner-fdev-sg*/
 .custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 70px;}
 /*testimonial-inner-fdev-sg*/
+/*Business-packages-inner-fdev-sg*/
+.business-about-box {min-height: 390px;}
+.counter-content {padding: 14px 0;text-align: center;}
+.shopping-experience-content .demo {padding-top: 25px;line-height: 30px;}
+.shopping-experience.custom-pad {padding: 60px 0 60px 0;}
+.easy-steps.custom-pad .demo {font-size: 14px;line-height: 26px;}
+.easy-steps-round {margin-top: 40px;}
+.all-plans-content-wrap {margin-top: 15px;}
+/*Business-packages-inner-fdev-sg*/
 }
 
 @media (max-width: 575.98px){
-/*testimonial-iiner-fdev-sg*/
+/*testimonial-inner-fdev-sg*/
 .custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 60px;}
 /*testimonial-inner-fdev-sg*/
+/*Business-packages-inner-fdev-sg*/
+.business-about-box {min-height: 370px;}
+.shopping-experience-img-box-2 img {width: 50%;}
+.shopping-experience-img-box-1 img {width: 95%;}
+.shopping-experience-content {text-align: center;}
+.shopping-experience-content .demo {padding-top: 15px;font-size: 13px;line-height: 26px;}
+.business-about-box-content .demo {line-height: 26px;padding-top: 20px;font-size: 13px;}
+.business-about-box-content h4 {padding-top: 35px;}
+/*Business-packages-inner-fdev-sg*/
 }
 
 @media only screen and (max-width: 480.98px) {	
-/*testimonial-iiner-fdev-sg*/
+/*testimonial-inner-fdev-sg*/
 .custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 50px;}
 /*testimonial-inner-fdev-sg*/
+/*Business-packages-inner-fdev-sg*/
+.shopping-experience-img-box-1 img {height: 400px;}
+.shopping-experience-img-box-2 img {height: 150px;}
+.counter-content .count-number-and-unit.secondary-font {font-size: 24px;}
+.counter-content ul li:last-child {padding-left: 5px;}
+.business-about-box {padding: 40px 25px;}
+/*Business-packages-inner-fdev-sg*/
 }
 
 /*Inner-page-Responsive-end*/
