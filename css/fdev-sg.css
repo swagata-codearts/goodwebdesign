@@ -10,13 +10,36 @@ padding-bottom: 150px;
 /*Testimonial-inner-end-supriyo*/
 /*Business-packages-inner-start-supriyo*/
 .business-about-box {
-min-height: 250px;
-padding: 30px;
+min-height: 470px;
+padding: 80px 45px;
 background-color: var(--c-white-900);
 box-shadow: 0 0 20px rgba(0,0,0,0.2);
 border-radius: 10px;
 }
-
+.business-about-box-content .demo {
+    font-family: var(--ff-secondary);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 45px;
+    color: var(--c-grey-500);
+  }
+.business-about-box-content h4 {
+    font-family: var(--ff-primary);
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--c-secondary);
+    padding-top: 45px;
+  }
+  .buisness-counter.custom-pad {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .count-number-and-unit.secondary-font {
+    color: #fff;
+  }
 /*Business-packages-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
 @media (min-width: 1920px) and (max-width: 2500px){
