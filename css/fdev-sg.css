@@ -15,7 +15,7 @@ padding-bottom: 150px;
     background-color: var(--c-white-900);
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     border-radius: 10px;
-  }
+}
 /*Business-packages-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
 @media (min-width: 1920px) and (max-width: 2500px){
