@@ -36,6 +36,12 @@
 .offcanvas {
   background-color: #f7faff;
 }
+.offcanvas-header {
+  padding-top: 30px;
+}
+.offcanvas-header img {
+  height: 50px;
+}
 .navbar-toggler.toggle-wrap {
   height: 16px;
 }
