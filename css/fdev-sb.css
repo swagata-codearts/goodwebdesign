@@ -329,8 +329,14 @@
 .custom-get-in-touch .custom-get-in-touch-form .custom-form-group .form-check-input[type="checkbox"] {
   border-radius: 0;
 }
-.custom-get-in-touch .custom-get-in-touch-form .form-button.custom-form-group .custom-button {
-  padding-inline: 66px;
+.custom-get-in-touch .custom-get-in-touch-form .form-button.custom-form-group .cus-form-btn {
+  padding-inline: 42px;
+  border: none;
+  font-family: var(--ff-primary);
+  font-weight: 700;
+  background-color: var(--c-primary);
+  color: var(--c-white-900);
+  cursor: pointer;font-size: 14px;
 }
 
 /* CALL TO ACTION */
