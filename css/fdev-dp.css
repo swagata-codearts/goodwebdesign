@@ -18,7 +18,7 @@
 
 
 .custom-banner {
-    padding: 150px 0;
+    padding: 250px 0 150px;
     position: relative;
     overflow-x: hidden;
 }
@@ -129,19 +129,19 @@
 .pattern-animations-right {
     position: absolute;
     right: 100px;
-    top: -40px;
+    top: 20px;
     transform: rotate(-90deg);
     z-index: -1;
   }
   .pattern-animations-right-2 {
-    top: 50px;
+    top: 110px;
   }
 .circuit-no-fill-right-2{
     animation-duration: 10s;
     animation-delay: 0.7s;
 }
 .pattern-animations-right-3 {
-    top: 140px;
+    top: 200px;
   }
 .circuit-no-fill-right-3{
     animation-duration: 18s;
@@ -184,20 +184,20 @@
 .pattern-animations-left {
     position: absolute;
     left: -6%;
-    top: 40px;
+    top: 100px;
     transform: rotate(90deg);
     z-index: -1;
 }
 .pattern-animations-left-2 {
-    top: 170px;
+    top: 230px;
     transform: rotate(-90deg);
 }
 .pattern-animations-left-3 {
-    top: 250px;
+    top: 310px;
     left: -10%;
   }
   .pattern-animations-right.pattern-animations-right-4 {
-    top: 210px;
+    top: 270px;
     right: 150px;
     transform: rotate(-270deg);
   }
@@ -206,7 +206,7 @@
     animation-delay: 0.8s;
   }
   .pattern-animations-right.pattern-animations-right-5 {
-    top: 320px;
+    top: 380px;
   }
 
 /*=============================banner-end============================*/
@@ -228,7 +228,6 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    margin-top: 80px;
   }
 .custom-quick-services::after {
     content: '';
@@ -240,6 +239,7 @@
     background-size: 101% 100%;
     background-image: url(../images/banner-bottom-bg.webp);
     top: -219px;
+    display: none;
   }
   .cus-quick-ser-icon {
     margin-bottom: 16px;
@@ -261,7 +261,18 @@
   .cus-quick-ser-icon img {
     height: 50px;
   }
-
+  .cus-quick-ser-content .custom-button {
+    font-size: 14px;
+    color: #fff;
+    min-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: 20px;
+    padding: 0 10px !important;
+    height: 44px;
+    width: 170px;
+    margin-left: 0;
+  }
 /* =============about-us=============== */
 .custom-about {
     position: relative;
