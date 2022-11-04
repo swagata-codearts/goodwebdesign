@@ -212,10 +212,17 @@ margin-top: 20px;
   .all-plan-box {
     text-align: center;
     width: 19%;
-    padding: 30px 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    min-height: 300px;
+    padding: 0px 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    min-height: 290px;
     border-radius: 10px;
+    background-color: var(--c-white-900);
+    transform: scale(1);
+transition: all 0.3s ease-in-out;
+  }
+  .all-plan-box:hover {
+    transform: scale(1.05);
+    cursor:pointer;
   }
   .all-plans-content-wrap-2 {
     display: flex;
@@ -233,6 +240,22 @@ margin-top: 20px;
   }
   .all-plans-content {
     padding: 50px 10px;
+  }
+  .all-plans.custom-pad .custom-heading {
+    text-align: center;
+  }
+  .all-plans-content img {
+    height: 60px;
+    transition: all 0.3s ease-in-out;
+  }
+  .all-plan-box:hover .all-plans-content img {
+    height: 70px;
+    cursor: pointer;
+  }
+  .all-plans.custom-pad {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 /*Business-packages-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
