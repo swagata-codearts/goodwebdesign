@@ -203,6 +203,37 @@ text-align: center;
 .price-button {
 margin-top: 20px;
 }
+.all-plans-content-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .all-plan-box {
+    text-align: center;
+    width: 19%;
+    padding: 30px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    min-height: 300px;
+    border-radius: 10px;
+  }
+  .all-plans-content-wrap-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .all-plans-content h4 {
+    font-family: var(--ff-primary);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--c-secondary);
+    margin-top: 50px;
+    line-height: 24px;
+  }
+  .all-plans-content {
+    padding: 50px 10px;
+  }
 /*Business-packages-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
 @media (min-width: 1920px) and (max-width: 2500px){
