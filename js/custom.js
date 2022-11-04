@@ -136,3 +136,10 @@ function playAnim() {
 
 // Start typing text
 playAnim();
+
+$('.grid').isotope({
+  itemSelector: '.grid-item',
+  masonry: {
+    percentPosition: true
+  }
+});
