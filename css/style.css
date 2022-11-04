@@ -258,7 +258,7 @@ margin: 0;
 .custom-inner-banner .breadcrumb {
 justify-content: center;
 background-color: var(--c-white-900);
-width: 45%;
+width: 70%;
 padding: 18px 0;
 border-radius: 7px;
 box-shadow: 0 0 30px rgba(0,0,0,0.2);
@@ -278,7 +278,6 @@ font-size: 14px;
 font-weight: 400;
 text-decoration: none;
 color: var(--c-grey-500);
-margin-right: 15px;
 }
 .custom-inner-banner  .breadcrumb-item.active {
 font-family: var(--ff-secondary);
@@ -287,15 +286,6 @@ font-weight: 400;
 color: var(--c-black-800);
 }
 .custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {
-position: absolute;
-content: '';
-background-color: var(--c-secondary);
-width: 1px;
-height: 14px;
-top: 21px;
-left: 0;
-right: 45px;
-margin: 0 auto;
-padding-right: 0rem;
+content: var(--bs-breadcrumb-divider, "｜");
 }
 /*custom-inner-banner-end-supriyo*/
