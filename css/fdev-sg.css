@@ -145,6 +145,31 @@ padding: 150px 0 230px 0;
     padding: 0 280px;
     margin-top: 60px;
   }
+  .price-wrap {
+    text-align: center;
+  }
+  .price-box {
+    min-height: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding: 0 0 40px 0;
+  }
+  .price-section ul li {
+    display: inline-block;
+  }
+  .top-price-box {
+    background-color: red;
+    padding: 80px 0px;
+  }
+  .price-box-content ul li {
+    padding-top: 20px;
+  }
+  .price-box-content ul {
+    margin-top: 50px;
+    min-height: 500px;
+    padding: 0 30px;
+  }
 /*Business-packages-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
 @media (min-width: 1920px) and (max-width: 2500px){
