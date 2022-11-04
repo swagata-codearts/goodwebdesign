@@ -91,85 +91,118 @@ color: var(--c-grey-500);
 padding: 150px 0 230px 0;
 }
 .easy-steps.custom-pad .custom-heading {
-    text-align: center;
-  }
-  .easy-steps.custom-pad .demo {
-    text-align: center;
-  }
-  .easy-steps-img {
-    background-color: var(--c-primary);
-    display: inline-block;
-    border-radius: 100px;
-    padding: 40px;
-    text-align: center;
-  }
-  .easy-steps-wrap {
-    text-align: center;
-    border: 1px dashed var(--c-primary);
-    display: inline-block;
-    padding: 10px;
-    border-radius: 170px;
-    position: relative;
-  }
-  .numbers h4 {
-    position: absolute;
-    background-color: var(--c-tertiary);
-    border-radius: 70px;
-    height: 45px;
-    width: 45px;
-    line-height: 45px;
-    top: 0;
-    right: 0;
-    font-family: var(--ff-primary);
-    font-size: 23px;
-    font-weight: 600;
-    color:var(--c-white-900);
-  }
-  .easy-steps-round {
-    text-align: center;
-    margin-top: 90px;
-  }
-  .easy-steps-round h5 {
-    font-family: var(--ff-primary);
-    font-size: 21px;
-    font-weight: 500;
-    color: var(--c-secondary);
-    margin-top: 20px;
-  }
-  .easy-steps.custom-pad .demo {
-    text-align: center;
-    font-size: 16px;
-    color: var(--c-black-600);
-    line-height: 33px;
-    font-weight: 400;
-    padding: 0 280px;
-    margin-top: 60px;
-  }
-  .price-wrap {
-    text-align: center;
-  }
-  .price-box {
-    min-height: 800px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    overflow: hidden;
-    padding: 0 0 40px 0;
-  }
-  .price-section ul li {
-    display: inline-block;
-  }
-  .top-price-box {
-    background-color: red;
-    padding: 80px 0px;
-  }
-  .price-box-content ul li {
-    padding-top: 20px;
-  }
-  .price-box-content ul {
-    margin-top: 50px;
-    min-height: 500px;
-    padding: 0 30px;
-  }
+text-align: center;
+}
+.easy-steps.custom-pad .demo {
+text-align: center;
+}
+.easy-steps-img {
+background-color: var(--c-primary);
+display: inline-block;
+border-radius: 100px;
+padding: 40px;
+text-align: center;
+}
+.easy-steps-wrap {
+text-align: center;
+border: 1px dashed var(--c-primary);
+display: inline-block;
+padding: 10px;
+border-radius: 170px;
+position: relative;
+}
+.numbers h4 {
+position: absolute;
+background-color: var(--c-tertiary);
+border-radius: 70px;
+height: 45px;
+width: 45px;
+line-height: 45px;
+top: 0;
+right: 0;
+font-family: var(--ff-primary);
+font-size: 23px;
+font-weight: 600;
+color:var(--c-white-900);
+}
+.easy-steps-round {
+text-align: center;
+margin-top: 90px;
+}
+.easy-steps-round h5 {
+font-family: var(--ff-primary);
+font-size: 21px;
+font-weight: 500;
+color: var(--c-secondary);
+margin-top: 20px;
+}
+.easy-steps.custom-pad .demo {
+text-align: center;
+font-size: 16px;
+color: var(--c-black-600);
+line-height: 33px;
+font-weight: 400;
+padding: 0 280px;
+margin-top: 60px;
+}
+.price-wrap {
+text-align: center;
+margin-top: 90px;
+}
+.price-box {
+min-height: 800px;
+border-radius: 10px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+overflow: hidden;
+padding: 0 0 40px 0;
+}
+.price-section ul li {
+display: inline-block;
+font-family: var(--ff-primary);
+color: var(--c-white-900);
+font-size: 13px;
+font-weight: 400;
+}
+.price-section ul li h2 {
+font-size: 65px;
+font-weight: 700;
+}
+.price-section-2 h4 {
+font-family: var(--ff-primary);
+color: var(--c-white-900);
+font-size: 18px;
+font-weight: 400;
+margin-top: 20px;
+}
+.price-section-2 h4 span {
+font-size: 13px;
+font-weight: 400;
+}
+.top-price-box {
+background-color: var(--c-secondary);
+padding: 60px 0px 80px;
+}
+.price-box-content ul {
+min-height: 500px;
+padding: 0 30px;
+}
+.price-box-content {
+margin-top: 40px;
+}
+.price-box-content ul li {
+font-family: var(--ff-secondary);
+font-size: 14px;
+font-weight: 300;
+line-height: 30px;
+color: var(--c-grey-500);
+padding-top: 20px;
+}
+.web-plan.custom-pad .custom-heading {
+text-align: center;
+}
+.price-button {
+margin-top: 20px;
+}
 /*Business-packages-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
 @media (min-width: 1920px) and (max-width: 2500px){
