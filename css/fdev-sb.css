@@ -589,7 +589,14 @@
 .icon-wrapper {
   position: absolute;
 }
-
+.icon-wrapper:nth-child(1) {
+  top: 30px;
+  left: 30px;
+}
+.icon-wrapper:nth-child(2) {
+  bottom: 30px;
+  right: 30px;
+}
 .three-cogs,
 .canvas-three-cogs {
   position: relative;
@@ -603,20 +610,23 @@
 }
 
 .three-cogs {
-  height: 112px;
-  width: 140px;
+  height: 350px;
+  width: 430px;
 }
 .three-cogs .icon {
   position: absolute;
 }
 .three-cogs .icon-sm {
-  font-size: 44px;
+  font-size: 160px;
+  color: #fef7f7;
 }
 .three-cogs .icon-md {
-  font-size: 50px;
+  font-size: 180px;
+  color: #f3f2f6;
 }
 .three-cogs .icon-lg {
-  font-size: 94px;
+  font-size: 250px;
+  color: #f8fbff;
 }
 .three-cogs .icon-bottom, .three-cogs .icon-top {
   right: 0;
