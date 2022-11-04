@@ -17,29 +17,79 @@ box-shadow: 0 0 20px rgba(0,0,0,0.2);
 border-radius: 10px;
 }
 .business-about-box-content .demo {
-    font-family: var(--ff-secondary);
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-top: 45px;
-    color: var(--c-grey-500);
-  }
+font-family: var(--ff-secondary);
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+padding-top: 45px;
+color: var(--c-grey-500);
+}
 .business-about-box-content h4 {
-    font-family: var(--ff-primary);
-    font-size: 22px;
-    font-weight: 500;
-    color: var(--c-secondary);
-    padding-top: 45px;
-  }
-  .buisness-counter.custom-pad {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  .count-number-and-unit.secondary-font {
-    color: #fff;
-  }
+font-family: var(--ff-primary);
+font-size: 22px;
+font-weight: 500;
+color: var(--c-secondary);
+padding-top: 45px;
+}
+.buisness-counter.custom-pad {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.count-number-and-unit.secondary-font {
+color: #fff;
+}
+.counter-content ul li {
+display: inline-block;
+vertical-align: middle;
+}
+.counter-content ul li:last-child {
+padding-left: 25px;
+}
+.counter-content  .count-number-and-unit.secondary-font {
+color: var(--c-white-900);
+font-family: var(--ff-primary);
+font-size: 45px;
+font-weight: 700;
+}
+.counter-content   h6 {
+font-family: var(--ff-primary);
+font-size: 15px;
+font-weight: 400;
+color: var(--c-white-700);
+}
+.shopping-experience-img-box-1 img {
+width: 75%;
+object-fit: cover;
+border-radius: 10px;
+height: 580px;
+object-position: 38% 100%;
+}
+.shopping-experience-img-box-2 img {
+width: 35%;
+object-fit: cover;
+border-radius: 10px;
+height: 265px;
+object-position: 35% 100%;
+position: absolute;
+right: 40px;
+bottom: -80px;
+}
+.shopping-experience-img {
+position: relative;
+}
+.shopping-experience-content .demo {
+font-family: var(--ff-secondary);
+font-size: 18px;
+font-weight: 400;
+line-height: 41px;
+padding-top: 45px;
+color: var(--c-grey-500);
+}
+.shopping-experience.custom-pad {
+padding: 150px 0 230px 0;
+}
 /*Business-packages-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
 @media (min-width: 1920px) and (max-width: 2500px){
