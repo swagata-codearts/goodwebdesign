@@ -10,13 +10,199 @@ padding-bottom: 150px;
 /*Testimonial-inner-end-supriyo*/
 /*Business-packages-inner-start-supriyo*/
 .business-about-box {
-min-height: 250px;
-padding: 30px;
+min-height: 470px;
+padding: 80px 45px;
 background-color: var(--c-white-900);
 box-shadow: 0 0 20px rgba(0,0,0,0.2);
 border-radius: 10px;
 }
-
+.business-about-box-content .demo {
+font-family: var(--ff-secondary);
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+padding-top: 45px;
+color: var(--c-grey-500);
+}
+.business-about-box-content h4 {
+font-family: var(--ff-primary);
+font-size: 22px;
+font-weight: 500;
+color: var(--c-secondary);
+padding-top: 45px;
+}
+.buisness-counter.custom-pad {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.count-number-and-unit.secondary-font {
+color: #fff;
+}
+.counter-content ul li {
+display: inline-block;
+vertical-align: middle;
+}
+.counter-content ul li:last-child {
+padding-left: 25px;
+}
+.counter-content  .count-number-and-unit.secondary-font {
+color: var(--c-white-900);
+font-family: var(--ff-primary);
+font-size: 45px;
+font-weight: 700;
+}
+.counter-content   h6 {
+font-family: var(--ff-primary);
+font-size: 15px;
+font-weight: 400;
+color: var(--c-white-700);
+}
+.shopping-experience-img-box-1 img {
+width: 75%;
+object-fit: cover;
+border-radius: 10px;
+height: 580px;
+object-position: 38% 100%;
+}
+.shopping-experience-img-box-2 img {
+width: 35%;
+object-fit: cover;
+border-radius: 10px;
+height: 265px;
+object-position: 35% 100%;
+position: absolute;
+right: 60px;
+bottom: -80px;
+}
+.shopping-experience-img {
+position: relative;
+}
+.shopping-experience-content .demo {
+font-family: var(--ff-secondary);
+font-size: 18px;
+font-weight: 400;
+line-height: 41px;
+padding-top: 45px;
+color: var(--c-grey-500);
+}
+.shopping-experience.custom-pad {
+padding: 150px 0 230px 0;
+}
+.easy-steps.custom-pad .custom-heading {
+text-align: center;
+}
+.easy-steps.custom-pad .demo {
+text-align: center;
+}
+.easy-steps-img {
+background-color: var(--c-primary);
+display: inline-block;
+border-radius: 100px;
+padding: 40px;
+text-align: center;
+}
+.easy-steps-wrap {
+text-align: center;
+border: 1px dashed var(--c-primary);
+display: inline-block;
+padding: 10px;
+border-radius: 170px;
+position: relative;
+}
+.numbers h4 {
+position: absolute;
+background-color: var(--c-tertiary);
+border-radius: 70px;
+height: 45px;
+width: 45px;
+line-height: 45px;
+top: 0;
+right: 0;
+font-family: var(--ff-primary);
+font-size: 23px;
+font-weight: 600;
+color:var(--c-white-900);
+}
+.easy-steps-round {
+text-align: center;
+margin-top: 90px;
+}
+.easy-steps-round h5 {
+font-family: var(--ff-primary);
+font-size: 21px;
+font-weight: 500;
+color: var(--c-secondary);
+margin-top: 20px;
+}
+.easy-steps.custom-pad .demo {
+text-align: center;
+font-size: 16px;
+color: var(--c-black-600);
+line-height: 33px;
+font-weight: 400;
+padding: 0 280px;
+margin-top: 60px;
+}
+.price-wrap {
+text-align: center;
+margin-top: 90px;
+}
+.price-box {
+min-height: 800px;
+border-radius: 10px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+overflow: hidden;
+padding: 0 0 40px 0;
+}
+.price-section ul li {
+display: inline-block;
+font-family: var(--ff-primary);
+color: var(--c-white-900);
+font-size: 13px;
+font-weight: 400;
+}
+.price-section ul li h2 {
+font-size: 65px;
+font-weight: 700;
+}
+.price-section-2 h4 {
+font-family: var(--ff-primary);
+color: var(--c-white-900);
+font-size: 18px;
+font-weight: 400;
+margin-top: 20px;
+}
+.price-section-2 h4 span {
+font-size: 13px;
+font-weight: 400;
+}
+.top-price-box {
+background-color: var(--c-secondary);
+padding: 60px 0px 80px;
+}
+.price-box-content ul {
+min-height: 500px;
+padding: 0 30px;
+}
+.price-box-content {
+margin-top: 40px;
+}
+.price-box-content ul li {
+font-family: var(--ff-secondary);
+font-size: 14px;
+font-weight: 300;
+line-height: 30px;
+color: var(--c-grey-500);
+padding-top: 20px;
+}
+.web-plan.custom-pad .custom-heading {
+text-align: center;
+}
+.price-button {
+margin-top: 20px;
+}
 /*Business-packages-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
 @media (min-width: 1920px) and (max-width: 2500px){
