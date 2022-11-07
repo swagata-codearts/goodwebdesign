@@ -106,5 +106,6 @@
 .custom-inner-banner h1 {font-size: 30px;}
 .custom-inner-banner .breadcrumb {width: 60%;padding: 15px 0;}
 .custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {top: 18px;right: 39px;}
+.custom-inner-banner {padding: 120px 0 140px 0;}
 }
 
