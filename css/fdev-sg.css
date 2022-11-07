@@ -286,6 +286,16 @@ z-index: 1;
 padding: 130px 0;
 }
 /*Business-packages-inner-end-supriyo*/
+/*Digital-marketing-inner-start-supriyo*/
+.web-plan.clone-section .inner-price-content [class*="col-"]:nth-child(2) {
+transform: scale(1);
+margin-top: 0px;
+z-index: 1;
+}
+.web-plan.clone-section .price-wrap {
+margin-top: 100px;
+}
+/*Digital-marketing-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
 @media (min-width: 1920px) and (max-width: 2500px){
 
