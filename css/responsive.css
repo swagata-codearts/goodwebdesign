@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media (min-width: 1920px) and (max-width: 2500px){
+
+}
+
+@media (min-width: 1600px) and (max-width: 1920px){
+
+}
+
+@media (min-width: 1200px) and (max-width: 1600px){
+
+}
+@media (min-width: 1366px) and (max-width: 1600px){
+.custom-inner-banner h1 {font-size: 67px;}
+.inner-banner-text {padding-left: 40px;}
+.custom-inner-banner .breadcrumb {width: 80%;}
+.custom-inner-banner .breadcrumb {right: 40px;}
+.custom-inner-banner {padding: 265px 0 170px 0;}
+}
+@media (min-width: 1200px) and (max-width: 1366px){
+.custom-inner-banner h1 {font-size: 64px;}
+.inner-banner-text {padding-left: 40px;}
+.custom-inner-banner .breadcrumb {right: 40px;}
+.custom-inner-banner .breadcrumb {width: 90%;}
+.custom-inner-banner {padding: 240px 0 140px 0;}
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+.custom-pad {padding: 90px 0;}
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+.custom-pad {padding: 80px 0;}
+.custom-heading .heading {font-size: 38px;line-height: 52px;}
+.custom-inner-banner h1 {font-size: 54px;margin-top: 6px;}
+.custom-inner-banner h5 {font-size: 15px;}
+.inner-banner-text {padding-left: 40px;}
+.custom-inner-banner .breadcrumb {right: 40px;}
+.custom-inner-banner .breadcrumb {width: 100%;}
+.custom-inner-banner .breadcrumb-item a {font-size: 12px;}
+.custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
+.custom-inner-banner .breadcrumb {font-size: 12px;}
+.custom-inner-banner {padding: 230px 0 130px 0;}
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+.custom-pad {padding: 70px 0;}
+.custom-button {height: 50px;}	
+.custom-heading .sub-heading {line-height: 32px;margin-bottom: 14px;}
+.custom-heading .heading {font-size: 34px;line-height: 42px;}
+.custom-heading .heading {font-size: 38px;line-height: 52px;}
+.custom-inner-banner h1 {font-size: 50px;margin-top: 6px;}
+.custom-inner-banner h5 {font-size: 14px;}
+.inner-banner-text {padding-left: 40px;}
+.custom-inner-banner .breadcrumb {right: 40px;}
+.custom-inner-banner .breadcrumb {width: 100%;}
+.custom-inner-banner .breadcrumb-item a {font-size: 12px;}
+.custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
+.custom-inner-banner .breadcrumb {font-size: 12px;}
+.custom-inner-banner {padding: 190px 0 100px 0;}
+}
+
+@media only screen and (max-width: 991.98px) {    
+.custom-pad {padding: 60px 0;}
+.custom-button {height: 50px;padding: 0 30px;}
+.custom-heading .sub-heading {line-height: 26px;margin-bottom: 12px;font-size: 13px;}
+.custom-heading .heading {font-size: 30px;line-height: 36px;}
+.custom-heading .sub-heading {line-height: 32px;margin-bottom: 14px;}
+.custom-heading .heading {font-size: 34px;line-height: 42px;}
+.custom-heading .heading {font-size: 38px;line-height: 52px;}
+.custom-inner-banner h1 {font-size: 45px;margin-top: 6px;}
+.custom-inner-banner h5 {font-size: 14px;}
+.custom-inner-banner {padding: 170px 0 160px 0;}
+.custom-inner-banner nav {text-align: center;}
+.custom-inner-banner .breadcrumb {right: 0px;left:0;margin:0 auto;width: 30%;font-size: 12px;top: 20px;}
+.custom-inner-banner .breadcrumb-item a {font-size: 12px;}
+.custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
+}
+
+
+@media (max-width: 767.98px){
+.custom-pad {padding: 50px 0;} 
+.custom-button {height: 46px;padding: 0 22px;} 
+.custom-heading .heading {font-size: 28px;line-height: 34px;}
+.custom-heading .sub-heading {margin-bottom: 10px;} 
+.inner-banner-text {padding-left: 0px;}
+.custom-inner-banner .breadcrumb {width: 40%;}
+.custom-inner-banner {padding: 160px 0 160px 0;}
+}
+
+@media (max-width: 575.98px){
+.custom-pad {padding: 40px 0;} 
+.custom-button {font-size: 13px;height: 41px;padding: 0 18px;}
+.custom-heading .sub-heading {margin-bottom: 8px;line-height: 20px;font-size: 12px;}
+.custom-heading .heading {font-size: 24px;line-height: 28px;}
+.custom-heading .sub-heading::after, .custom-heading .sub-heading::before {top: 41%;}
+.custom-inner-banner h1 {font-size: 40px;}
+.custom-inner-banner .breadcrumb {width: 45%;}
+.custom-inner-banner {padding: 150px 0 160px 0;}
+}
+
+@media only screen and (max-width: 480.98px) {	
+.custom-inner-banner h1 {font-size: 40px;margin-top: 4px;}
+.custom-inner-banner h5 {font-size: 12px;}
+.custom-inner-banner h1 {font-size: 30px;}
+.custom-inner-banner .breadcrumb {width: 60%;padding: 15px 0;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {top: 18px;right: 39px;}
+}
+

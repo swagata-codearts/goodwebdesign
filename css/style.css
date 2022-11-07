@@ -1,0 +1,291 @@
+/******** Google Fonts ********/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/******** Color Schemes ********/
+:root {
+--c-primary: #e31e25;
+--c-secondary: #223354;
+--c-tertiary: #1ec2ed;
+--c-primary-alt: #df1d24;
+
+--c-white-900: #ffffff;
+--c-white-800: #e5e5e5;
+--c-white-700: #dedede;
+--c-white-750: #dcdbdb;
+
+--c-grey-500: #5d5d5d;
+--c-grey-400: #737373;
+
+--c-black-900: #000000;
+--c-black-800: #141414;
+--c-black-700: #212529;
+--c-black-600: #333333;
+--c-black-500: #464646;
+
+--ff-primary: 'Gotham';
+--ff-secondary: 'Beatrice';
+--ff-tertiary: 'Sailec';
+}
+
+/* ******* Font Face Rule ******* */
+@font-face {
+font-family: 'Gotham';
+src: url('../fonts/Gotham-Book.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Gotham';
+src: url('../fonts/Gotham-Medium.ttf') format('truetype');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Gotham';
+src: url('../fonts/Gotham-Bold.otf') format('opentype');
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Gotham';
+src: url('../fonts/Gotham-Bold.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Beatrice';
+src: url('../fonts/Beatrice-Light.otf') format('opentype');
+font-weight: 300;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Beatrice';
+src: url('../fonts/Beatrice-Light.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Sailec';
+src: url('../fonts/Sailec-Bold.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+}
+
+/******** CSS Resets ********/
+* {
+padding: 0;
+margin: 0 auto;
+}
+ul {
+margin: 0;
+padding: 0;
+}
+li {
+list-style: none;
+}
+a:focus, a:hover {
+outline: none;
+}
+a {
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+text-decoration: none;
+}
+a:hover {
+text-decoration: none;
+}
+p {
+margin: 0;
+padding: 0;
+font-size: 14px;
+color: var(--c-black-600);
+line-height: 18px;
+font-weight: 400;
+}
+body {
+color: var(--c-black-600);
+font-family: var(--ff-secondary);
+font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: var(--ff-primary);
+margin-bottom: 0;
+}
+
+/******** Utility Classes ********/
+.container {
+max-width: 1440px;
+}
+.custom-container {
+max-width: 1608px;
+}
+
+/* ******* Custom Properties ******* */
+.custom-pad {
+padding: 150px 0;
+}
+.custom-button {
+font-family: var(--ff-primary);
+font-weight: 700;
+background-color: var(--c-primary);
+color: var(--c-white-900);
+position: relative;
+transform: translate(0);
+border-radius: 50px;
+cursor: pointer;
+overflow: hidden;
+display: inline-flex;
+font-size: 14px;
+height: 56px;
+line-height: 26px;
+padding: 0 43px;
+text-transform: capitalize;
+align-items: center;
+justify-content: center;
+transition: all 0.5s ease-in-out;
+}
+.custom-button:focus,
+.custom-button:active {
+outline: none;
+}
+.custom-button:hover {
+color: var(--c-white-900);
+}
+.custom-button:before,
+.custom-button:after {
+content: '';
+position: absolute;
+bottom: 0;
+top: 0;
+left: 0;
+right: 0;
+height: auto;
+width: auto;
+z-index: -1;
+border-radius: inherit;
+background: inherit;
+}
+.custom-button:before {
+background: linear-gradient(90deg, #ffc5c8, #b9eafcc5, #ff5c77, #aae1f7, #ffd6d6, #f92121, #c7eefd, #72d1f39b );
+background-size: 200% 200%;
+opacity: 0;
+transition: all 0.5s ease-in-out;
+}
+.custom-button:after {
+margin: 3px;
+}
+.custom-button:hover:before,
+.custom-button:focus:before {
+opacity: 1;
+animation: rainbow-border 2s linear infinite;
+}
+@keyframes rainbow-border {
+0% {
+background-position: 0% 50%;
+}
+100% {
+background-position: 200% 50%;
+}
+}
+.custom-heading .sub-heading {
+color: var(--c-primary);
+font-size: 14px;
+font-family: var(--ff-secondary);
+font-weight: 300;
+line-height: 36px;
+margin-bottom: 20px;
+padding: 0 14px;
+position: relative;
+text-transform: uppercase;
+width: fit-content;
+}
+.custom-heading .sub-heading::after,
+.custom-heading .sub-heading::before {
+content: "/";
+position: absolute;
+top: 48%;
+transform: translateY(-50%);
+}
+.custom-heading .sub-heading::before {
+left: 0;
+}
+.custom-heading .sub-heading::after {
+right: 0;
+}
+.custom-heading .heading {
+color: var(--c-secondary);
+font-size: 43px;
+font-weight: 400;
+line-height: 64px;
+text-transform: capitalize;
+}
+/*custom-inner-banner-start-supriyo*/
+.custom-inner-banner {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+position: relative;
+padding: 265px 0 150px 0;
+}
+.custom-inner-banner h5 {
+font-family: var(--ff-secondary);
+font-size: 16px;
+font-weight: 300;
+color: var(--c-black-500);
+}
+.custom-inner-banner h1 {
+font-family: var(--ff-primary);
+font-size: 77px;
+font-weight:600;
+color: var(--c-secondary);
+margin-top: 10px;
+}
+.custom-inner-banner  nav {
+text-align: left;
+position: relative;
+}
+.custom-inner-banner .breadcrumb-item {
+margin: 0;
+}
+.custom-inner-banner .breadcrumb {
+justify-content: center;
+background-color: var(--c-white-900);
+width: 70%;
+padding: 18px 0;
+border-radius: 7px;
+box-shadow: 0 0 30px rgba(0,0,0,0.2);
+font-family: var(--ff-secondary);
+font-size: 14px;
+font-weight: 400;
+color: var(--c-black-800);
+text-decoration: none;
+position: absolute;
+top: -30px;
+right: 0;
+margin-bottom: 0rem;
+}
+.custom-inner-banner .breadcrumb-item a {
+font-family: var(--ff-secondary);
+font-size: 14px;
+font-weight: 400;
+text-decoration: none;
+color: var(--c-grey-500);
+}
+.custom-inner-banner  .breadcrumb-item.active {
+font-family: var(--ff-secondary);
+font-size: 14px;
+font-weight: 400;
+color: var(--c-black-800);
+}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {
+content: var(--bs-breadcrumb-divider, "｜");
+}
+/*custom-inner-banner-end-supriyo*/
