@@ -539,7 +539,7 @@ padding: 0 250px;
 .easy-steps.custom-pad .demo {margin-top: 30px;font-size: 15px;line-height: 30px;}
 .easy-steps-round {margin-top: 60px;}
 .shopping-experience-content .demo {padding-top: 35px;font-size: 14px;line-height: 36px;}
-.all-plan-box {min-height: 240px;}
+.all-plan-box {min-height: 270px;}
 .all-plan-box:hover .all-plans-content img {height: 65px;}
 .shopping-experience.custom-pad {padding: 80px 0 80px 0;}
 .shopping-experience-img-box-2 img {height: 205px;}
@@ -555,8 +555,8 @@ padding: 0 250px;
 .counter-content ul li:last-child {padding-left: 15px;}
 .counter-content {padding: 10px 0;}
 .shopping-experience-content {margin-top: 100px;}
-.all-plans-content-wrap {flex-direction: column;}
-.all-plan-box {width: 100%;margin-top: 20px;}
+.all-plans-content-wrap {flex-direction: row;}
+.all-plan-box {width: 32%;margin-top: 20px;}
 .all-plan-box:hover {transform: scale(1.01);}
 .all-plans-content-wrap-2 {flex-direction: column;}
 .all-plans-content-wrap-2 {margin-top: 0px;}
@@ -574,7 +574,7 @@ padding: 0 250px;
 .bottom-price-box::after {top: -89px;background-size: cover;}
 .all-plans.custom-pad .all-plans-extra-content {margin-top: 40px;}
 .all-plans.custom-pad .all-plans-extra-content ul li {font-size: 13px;}
-.all-plans-content-wrap {gap: 17px 12px;}
+.all-plans-content-wrap {gap: 0px 12px;}
 .business-about.custom-pad .container.custom-side-pad {padding: 0 15px;}
 .web-plan.custom-pad .custom-heading {margin-bottom: 180px;}
 .easy-steps-img {height: 150px;width: 150px;line-height: 150px;}
@@ -615,6 +615,7 @@ padding: 0 250px;
 .all-plans-content-wrap {margin-top: 15px;}
 .web-plan.custom-pad {padding: 60px 0;}
 .easy-steps.custom-pad .custom-heading .heading {padding: 0 110px;}
+.all-plan-box {width: 48%;}
 /*Business-packages-inner-fdev-sg*/
 /*Digital-marketing-inner-fdev-sg*/
 .web-plan.clone-section.custom-pad .custom-heading {margin-bottom: 20px;}
@@ -642,6 +643,7 @@ padding: 0 250px;
 .web-plan.custom-pad {padding: 50px 0;}
 .easy-steps.custom-pad .custom-heading .heading {padding: 0 90px;}
 .all-plans-content-wrap {gap: 0px 12px;}
+.all-plan-box {width: 100%;}
 /*Business-packages-inner-fdev-sg*/
 }
 
