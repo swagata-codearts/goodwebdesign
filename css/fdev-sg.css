@@ -285,6 +285,18 @@ z-index: 1;
 .web-plan.custom-pad {
 padding: 130px 0;
 }
+.all-plans.custom-pad .all-plans-extra-content {
+text-align: center;
+margin-top: 105px;
+}
+.all-plans.custom-pad .all-plans-extra-content ul li {
+padding: 10px 0px;
+font-family: var(--ff-secondary);
+font-weight: 300;
+font-size: 15px;
+color: var(--c-grey-500);
+font-style: italic;
+}
 /*Business-packages-inner-end-supriyo*/
 /*Digital-marketing-inner-start-supriyo*/
 .web-plan.clone-section .inner-price-content [class*="col-"]:nth-child(2) {
@@ -322,6 +334,7 @@ min-height: 500px;
 }
 .web-plan.clone-section.e-commerce.custom-pad .bottom-price-box::after {
 background-size: contain;
+top: -80px;
 }
 /*E-commerce-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
@@ -380,7 +393,7 @@ background-size: contain;
 .web-plan.clone-section .price-wrap {margin-top: 50px;}
 /*Digital-marketing-inner-fdev-sg*/
 /*E-commerce-inner-fdev-sg*/
-.web-plan.clone-section.e-commerce.custom-pad .bottom-price-box::after {top: -42px;}
+.web-plan.clone-section.e-commerce.custom-pad .bottom-price-box::after {top: -55px;}
 .web-plan.clone-section.e-commerce.custom-pad .price-box-content ul {min-height: 370px;}
 .price-box {min-height: 660px;}
 .web-plan.clone-section.e-commerce.custom-pad .price-section ul li h2 {font-size: 44px;}
@@ -422,6 +435,8 @@ background-size: contain;
 .price-section-2 h4 span {font-size: 12px;}
 .price-box {min-height: 740px;}
 .web-plan.custom-pad {padding: 80px 0;}
+.all-plans.custom-pad .all-plans-extra-content {margin-top: 65px;}
+.all-plans.custom-pad .all-plans-extra-content ul li {font-size: 13px;}
 /*Business-packages-inner-fdev-sg*/
 /*Digital-marketing-inner-fdev-sg*/
 .web-plan.clone-section.custom-pad .price-section ul li h2 {font-size: 18px;}
@@ -433,7 +448,7 @@ background-size: contain;
 .web-plan-extra-content ul li {font-size: 13px;}
 /*Digital-marketing-inner-fdev-sg*/
 /*E-commerce-inner-fdev-sg*/
-.web-plan.clone-section.e-commerce.custom-pad .bottom-price-box::after {top: -34px;}
+.web-plan.clone-section.e-commerce.custom-pad .bottom-price-box::after {top: -54px;}
 .web-plan.clone-section.e-commerce.custom-pad .price-box-content ul {min-height: 370px;}
 .price-box {min-height: 650px;}
 .web-plan.clone-section.e-commerce.custom-pad .price-section ul li h2 {font-size: 38px;}
@@ -464,7 +479,6 @@ background-size: contain;
 .easy-steps.custom-pad .demo {padding: 0px 100px;}
 .easy-steps-round h5 {font-size: 19px;}
 .all-plans-content-wrap {margin-top: 40px;}
-
 .top-price-box {padding: 30px 0px 70px;}
 .price-box-content ul li {font-size: 12px;padding-top: 10px;}
 .price-box-content ul {min-height: 440px;}
@@ -478,6 +492,8 @@ background-size: contain;
 .price-section-2 h4 span {font-size: 12px;}
 .price-box {min-height: 740px;}
 .web-plan.custom-pad {padding: 70px 0;}
+.all-plans.custom-pad .all-plans-extra-content {margin-top: 55px;}
+.all-plans.custom-pad .all-plans-extra-content ul li {font-size: 13px;}
 /*Business-packages-inner-fdev-sg*/
 /*Digital-marketing-inner-fdev-sg*/
 .web-plan.clone-section.custom-pad .price-section ul li h2 {font-size: 18px;}
@@ -489,7 +505,7 @@ background-size: contain;
 .web-plan-extra-content ul li {font-size: 13px;}
 /*Digital-marketing-inner-fdev-sg*/
 /*E-commerce-inner-fdev-sg*/
-.web-plan.clone-section.e-commerce.custom-pad .bottom-price-box::after {top: -34px;}
+.web-plan.clone-section.e-commerce.custom-pad .bottom-price-box::after {top: -53px;}
 .web-plan.clone-section.e-commerce.custom-pad .price-box-content ul {min-height: 310px;}
 .price-box {min-height: 590px;}
 .web-plan.clone-section.e-commerce.custom-pad .price-section ul li h2 {font-size: 38px;}
@@ -528,7 +544,6 @@ background-size: contain;
 .all-plan-box:hover {transform: scale(1.01);}
 .all-plans-content-wrap-2 {flex-direction: column;}
 .all-plans-content-wrap-2 {margin-top: 0px;}
-
 .top-price-box {padding: 50px 0px 100px;}
 .price-box-content ul li {font-size: 12px;padding-top: 10px;}
 .price-box-content ul {min-height: 440px;}
@@ -543,6 +558,8 @@ background-size: contain;
 .price-box {min-height: 720px;}
 .web-plan.custom-pad {padding: 70px 0;}
 .bottom-price-box::after {top: -89px;background-size: cover;}
+.all-plans.custom-pad .all-plans-extra-content {margin-top: 40px;}
+.all-plans.custom-pad .all-plans-extra-content ul li {font-size: 13px;}
 /*Business-packages-inner-fdev-sg*/
 /*Digital-marketing-inner-fdev-sg*/
 .web-plan.clone-section.custom-pad .price-section ul li h2 {font-size: 50px;}
@@ -581,6 +598,7 @@ background-size: contain;
 .web-plan.clone-section.e-commerce.custom-pad .bottom-price-box::after {top: -60px;}
 .web-plan.clone-section .price-wrap {margin-top: 30px;}
 /*E-commerce-inner-fdev-sg*/
+.all-plans.custom-pad .all-plans-extra-content {margin-top: 30px;}
 }
 
 @media (max-width: 575.98px){
