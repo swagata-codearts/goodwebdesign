@@ -1537,7 +1537,7 @@
   .custom-portfolio .portfolio-button {margin-top: 35px;}
 
   .custom-testimonial .testimonial-content .custom-tes-item {width: unset;}
-  .custom-testimonial .testimonial-content .tes-card-content {height: 300px;}
+  .custom-testimonial .testimonial-content .tes-card-content {height: 290px;}
   .custom-testimonial.custom-pad {padding-bottom: 60px;}
   .custom-testimonial .testimonial-content {padding-top: 28px;}
   .custom-testimonial .testimonial-slider .owl-prev, .custom-testimonial .testimonial-slider .owl-next {width: 40px;height: 40px;font-size: 15px !important;}
@@ -1678,7 +1678,7 @@
   .inner-our-work {padding-top: 50px;}
   .custom-tab-button .nav-tabs .nav-link {padding: 10px 18px;}
   .custom-tab-button .nav-tabs {padding-bottom: 20px;}
-  .custom-services::before, .custom-services::after {display: none;}
+  .custom-services::before {display: none;}
   .quick-nav-box-wrap {flex-direction: column;}
   .quick-nav-box {width: 100%;height: auto;padding: 40px 30px;}
   .inner-pricing-content.custom-pad {padding: 70px 0;}
@@ -1710,7 +1710,7 @@
   .custom-services .services-wrap .service-box .service-arrow-icon {right: 25px;}
   .custom-services .services-wrap .service-box {padding: 0 15px 10px 20px;}
 
-  .custom-testimonial .testimonial-content .tes-card-content {padding: 0 20px 40px 20px;}
+  .custom-testimonial .testimonial-content .tes-card-content {padding: 0 20px 40px 20px;height: 300px;}
   .custom-testimonial .testimonial-content .remark p {font-size: 14px;line-height: 26px;}
   .custom-testimonial .testimonial-content .exclamation-remark {margin: 0 0 15px 0;}
   .custom-testimonial .testimonial-content .exclamation-remark h5 {font-size: 20px;}
