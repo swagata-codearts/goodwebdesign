@@ -363,6 +363,10 @@
   position: relative;
   z-index: 9;
 }
+.custom-testimonial .custom-heading {
+  position: relative;
+  z-index: 9;
+}
 .custom-testimonial .testimonial-content {
   padding-top: 58px;
 }
@@ -1274,6 +1278,7 @@
   .custom-imglist [class*="col-"] {padding: 15px 15px;}
   .custom-imglist a img {height: 100%;}
   .inner-our-work {padding-top: 80px;}
+  .custom-services::before, .custom-services::after {opacity: 0.5;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -1324,7 +1329,6 @@
   .inner-cta-title .title {font-size: 65px;}
   .inner-cta-content .custom-paragraph {margin-right: 40px;width: 70%;}
   .inner-our-team-wrap {gap: 80px 0;}
-  /* .inner-cta-content.d-flex.align-items-center {flex-direction: column;gap: 15px;} */
   .inner-cta-content .custom-paragraph {margin-left: 0;}
   .inner-our-team-wrap .team-member-box .member-img img {width: 70%;}
   .inner-our-team-wrap .team-member-box:nth-child(2n+1) {padding: 73px 50px 73px 230px;}
@@ -1342,6 +1346,7 @@
   .custom-imglist a img {height: 100%;}
   .inner-our-work {padding-top: 70px;}
   .custom-tab-button .nav-tabs {padding-bottom: 50px;}
+  .custom-services::before, .custom-services::after {opacity: 0.2;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -1410,6 +1415,7 @@
   .custom-imglist a img {height: 100%;}
   .inner-our-work {padding-top: 70px;}
   .custom-tab-button .nav-tabs {padding-bottom: 40px;}
+  .custom-services::before, .custom-services::after {opacity: 0.2;}
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -1510,6 +1516,7 @@
   .custom-imglist [class*="col-lg-4"]:nth-child(5n) {width: 100%;}
   .inner-our-work {padding-top: 60px;}
   .custom-tab-button .nav-tabs {padding-bottom: 25px;}
+  .custom-services::before, .custom-services::after {opacity: 0.2;}
 }
 
 @media (max-width: 767.98px){
@@ -1562,6 +1569,7 @@
   .inner-our-work {padding-top: 50px;}
   .custom-tab-button .nav-tabs .nav-link {padding: 10px 18px;}
   .custom-tab-button .nav-tabs {padding-bottom: 20px;}
+  .custom-services::before, .custom-services::after {display: none;}
 }
 
 @media (max-width: 575.98px){
@@ -1621,7 +1629,7 @@
   .au-right .abt-img-main {padding: 0;}
   .au-right .abt-img-sub {left: unset;position: relative;bottom: unset;}
   .au-right .abt-img-main img {padding-bottom: 15px;}
-  .abt-img-sub img {width: 100%;height: auto;}
+  .au-right .abt-img-sub img {width: 100%;height: auto;}
   .about-us-left::before {width: 211px;height: 147px;top: -2px;}
   .about-us-content {padding: 0 0 30px;}
   .inner-about-section {padding-bottom: 40px !important;}
