@@ -95,6 +95,9 @@ color: var(--c-grey-500);
 }
 .shopping-experience.custom-pad {
 padding: 150px 0 230px 0;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .easy-steps.custom-pad .custom-heading {
 text-align: center;
@@ -279,7 +282,9 @@ transform: scale(1.13);
 margin-top: -136px;
 z-index: 1;
 }
-
+.web-plan.custom-pad {
+padding: 130px 0;
+}
 /*Business-packages-inner-end-supriyo*/
 /*Inner-page-Responsive-start*/
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -294,7 +299,7 @@ z-index: 1;
 /*Business-packages-inner-fdev-sg*/
 .counter-content .count-number-and-unit.secondary-font {font-size: 40px;}
 .shopping-experience-content .demo {font-size: 16px;}
-.shopping-experience.custom-pad {padding: 800px 0 150px 0;}
+.shopping-experience.custom-pad {padding: 140px 0 200px 0;}
 /*Business-packages-inner-fdev-sg*/
 }
 
@@ -311,9 +316,15 @@ z-index: 1;
 .shopping-experience-content .demo {padding-top: 35px;}
 .all-plan-box {min-height: 310px;}
 .all-plan-box:hover .all-plans-content img {height: 65px;}
-.shopping-experience.custom-pad {padding: 80px 0 150px 0;}
+.shopping-experience.custom-pad {padding: 110px 0 180px 0;}
 .shopping-experience-img-box-2 img {height: 205px;}
 .easy-steps.custom-pad .demo {padding: 0px 200px;}
+.top-price-box {padding: 40px 0px 80px;}
+.price-wrap {margin-top: 160px;}
+.price-box-content ul li {font-size: 12px;padding-top: 10px;}
+.price-box-content ul {min-height: 420px;}
+.inner-price-content [class*="col-"]:nth-child(2) {margin-top: -124px;}
+.web-plan.custom-pad {padding: 90px 0;}
 /*Business-packages-inner-fdev-sg*/
 }
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -330,7 +341,7 @@ z-index: 1;
 .all-plan-box:hover .all-plans-content img {height: 65px;}
 .shopping-experience.custom-pad {padding: 80px 0 150px 0;}
 .shopping-experience-img-box-2 img {height: 205px;}
-.business-about-box {padding: 60px 25px;min-height: 450px;}
+.business-about-box {padding: 60px 25px;min-height: 440px;}
 .counter-content ul li img {height: 30px;}
 .shopping-experience-img-box-1 img {width: 85%;}
 .shopping-experience-img-box-2 img {width: 40%;right: 0px;}
@@ -339,6 +350,19 @@ z-index: 1;
 .easy-steps.custom-pad .demo {padding: 0px 100px;}
 .easy-steps-round h5 {font-size: 19px;}
 .all-plans-content-wrap {margin-top: 40px;}
+.top-price-box {padding: 30px 0px 70px;}
+.price-box-content ul li {font-size: 12px;padding-top: 10px;}
+.price-box-content ul {min-height: 440px;}
+.price-wrap {margin-top: 170px;}
+.price-wrap {margin-top: 160px;}
+.price-box-content ul li {font-size: 12px;padding-top: 10px;}
+.price-box-content ul {min-height: 420px;}
+.inner-price-content [class*="col-"]:nth-child(2) {margin-top: -154px;transform: scale(1.16);}
+.price-section ul li h2 {font-size: 45px;}
+.price-section-2 h4 {font-size: 16px;}
+.price-section-2 h4 span {font-size: 12px;}
+.price-box {min-height: 740px;}
+.web-plan.custom-pad {padding: 80px 0;}
 /*Business-packages-inner-fdev-sg*/
 }
 
@@ -365,7 +389,20 @@ z-index: 1;
 .easy-steps.custom-pad .demo {padding: 0px 100px;}
 .easy-steps-round h5 {font-size: 19px;}
 .all-plans-content-wrap {margin-top: 40px;}
-.counter-content ul li:last-child {padding-left: 15px;}
+
+.top-price-box {padding: 30px 0px 70px;}
+.price-box-content ul li {font-size: 12px;padding-top: 10px;}
+.price-box-content ul {min-height: 440px;}
+.price-wrap {margin-top: 170px;}
+.price-wrap {margin-top: 160px;}
+.price-box-content ul li {font-size: 12px;padding-top: 5px;}
+.price-box-content ul {min-height: 420px;}
+.inner-price-content [class*="col-"]:nth-child(2) {margin-top: -145px;transform: scale(1.16);}
+.price-section ul li h2 {font-size: 45px;}
+.price-section-2 h4 {font-size: 16px;}
+.price-section-2 h4 span {font-size: 12px;}
+.price-box {min-height: 740px;}
+.web-plan.custom-pad {padding: 70px 0;}
 /*Business-packages-inner-fdev-sg*/
 }
 
@@ -383,7 +420,7 @@ z-index: 1;
 .all-plan-box:hover .all-plans-content img {height: 65px;}
 .shopping-experience.custom-pad {padding: 80px 0 80px 0;}
 .shopping-experience-img-box-2 img {height: 205px;}
-.business-about-box {padding: 60px 25px;min-height: 450px;margin-top: 20px;}
+.business-about-box {padding: 60px 25px;min-height: 420px;margin-top: 20px;}
 .counter-content ul li img {height: 30px;}
 .shopping-experience-img-box-1 img {width: 85%;}
 .shopping-experience-img-box-2 img {width: 40%;right: 0px;}
@@ -400,6 +437,21 @@ z-index: 1;
 .all-plan-box:hover {transform: scale(1.01);}
 .all-plans-content-wrap-2 {flex-direction: column;}
 .all-plans-content-wrap-2 {margin-top: 0px;}
+
+.top-price-box {padding: 50px 0px 100px;}
+.price-box-content ul li {font-size: 12px;padding-top: 10px;}
+.price-box-content ul {min-height: 440px;}
+.price-wrap {margin-top: 170px;}
+.price-wrap {margin-top: 40px;}
+.price-box-content ul li {font-size: 13px;padding-top: 15px;}
+.price-box-content ul {min-height: 420px;}
+.inner-price-content [class*="col-"]:nth-child(2) {margin-top: 0px;transform: scale(1);}
+.price-section ul li h2 {font-size: 45px;}
+.price-section-2 h4 {font-size: 16px;}
+.price-section-2 h4 span {font-size: 12px;}
+.price-box {min-height: 720px;}
+.web-plan.custom-pad {padding: 70px 0;}
+.bottom-price-box::after {top: -89px;background-size: cover;}
 /*Business-packages-inner-fdev-sg*/
 }
 
@@ -415,6 +467,7 @@ z-index: 1;
 .easy-steps.custom-pad .demo {font-size: 14px;line-height: 26px;}
 .easy-steps-round {margin-top: 40px;}
 .all-plans-content-wrap {margin-top: 15px;}
+.web-plan.custom-pad {padding: 60px 0;}
 /*Business-packages-inner-fdev-sg*/
 }
 
@@ -430,6 +483,7 @@ z-index: 1;
 .shopping-experience-content .demo {padding-top: 15px;font-size: 13px;line-height: 26px;}
 .business-about-box-content .demo {line-height: 26px;padding-top: 20px;font-size: 13px;}
 .business-about-box-content h4 {padding-top: 35px;}
+.web-plan.custom-pad {padding: 50px 0;}
 /*Business-packages-inner-fdev-sg*/
 }
 
@@ -443,6 +497,8 @@ z-index: 1;
 .counter-content .count-number-and-unit.secondary-font {font-size: 24px;}
 .counter-content ul li:last-child {padding-left: 5px;}
 .business-about-box {padding: 40px 25px;}
+.price-box-content ul li {padding-top: 10px;}
+.price-box-content ul {padding: 0 10px;}
 /*Business-packages-inner-fdev-sg*/
 }
 
