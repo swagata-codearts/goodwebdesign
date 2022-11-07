@@ -447,6 +447,7 @@ padding: 0 250px;
 .easy-steps-img {height: 150px;width: 150px;line-height: 150px;}
 .easy-steps.custom-pad .custom-heading .heading {padding: 0 290px;}
 .all-plan-box {min-height: 280px;}
+.all-plan-box {width: 32%;}
 /*Business-packages-inner-fdev-sg*/
 /*Digital-marketing-inner-fdev-sg*/
 .web-plan.clone-section.custom-pad .price-section ul li h2 {font-size: 18px;}
@@ -508,6 +509,7 @@ padding: 0 250px;
 .easy-steps-img {height: 150px;width: 150px;line-height: 150px;}
 .easy-steps.custom-pad .custom-heading .heading {padding: 0 270px;}
 .all-plan-box {min-height: 260px;}
+.all-plan-box {width: 32%;}
 /*Business-packages-inner-fdev-sg*/
 /*Digital-marketing-inner-fdev-sg*/
 .web-plan.clone-section.custom-pad .price-section ul li h2 {font-size: 18px;}
@@ -592,7 +594,7 @@ padding: 0 250px;
 /*Digital-marketing-inner-fdev-sg*/
 /*E-commerce-inner-fdev-sg*/
 .web-plan.clone-section.e-commerce.custom-pad .price-box-content ul {min-height: 310px;}
-.price-box {min-height: 590px;}
+.price-box {min-height:auto;}
 .web-plan.clone-section.e-commerce.custom-pad .price-section ul li h2 {font-size: 38px;}
 .web-plan.clone-section.e-commerce.custom-pad .top-price-box {padding: 30px 0px 80px;}
 .web-plan.clone-section.e-commerce.custom-pad [class*="col-"] {width: 100%;}
