@@ -1595,7 +1595,7 @@
   .inner-our-team-wrap .team-member-box:nth-child(2n+1) .member-img {left: 30px;top: -115px;}
   .inner-our-team-wrap .team-member-box:nth-child(2n) .member-img {right: -150px;top: -115px;}
   .inner-our-team-wrap .team-member-box .member-title .title {font-size: 22px;margin-bottom: 0px;}
-  .custom-imglist a img {height: 100%;}
+  .custom-imglist .work-sample-link img {height: 400px;}
   .custom-imglist [class*="col-"] {padding: 15px 15px;}
   .custom-imglist [class*="col-lg-4"]:nth-child(5n) {width: 100%;}
   .inner-our-work {padding-top: 60px;}
@@ -1738,6 +1738,8 @@
   .inner-our-team-wrap .team-member-box .member-img {left: 0 !important;top: -115px !important;right: 0 !important;margin: 0 auto;text-align: center;}
   .inner-our-team-wrap .team-member-box .member-img img {width: 80%;height: 250px;object-fit: cover;object-position: top;}
   .inner-our-work {padding-top: 40px;}
+  .custom-imglist .work-sample-link img {height: 360px;}
+  .custom-imglist [class*="col-"] {padding: 8px 12px;}
   .custom-tab-button .nav-tabs .nav-link {font-size: 11px;padding: 6px 8px;}
   .custom-tab-button .nav-tabs {padding-bottom: 12px;}
   .quick-nav-box {padding: 40px 15px;text-align: center;}
