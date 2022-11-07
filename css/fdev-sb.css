@@ -1603,7 +1603,9 @@
   .custom-services::before, .custom-services::after {opacity: 0.2;}
   .pricing-content .custom-paragraph p {line-height: 32px;font-size: 15px;}
   .inner-pricing-content.custom-pad {padding: 80px 0;}
-  .quick-nav-box {padding: 60px 30px;height: 475px;}
+  .quick-nav-box-wrap {gap: 20px 30px;}
+  .quick-nav-box {padding: 60px 30px;height: 430px;}
+  .quick-nav-box img {height: 60px;width: 60px;}
   .pricing-content {padding: 0 0% 0;}
 }
 
@@ -1659,9 +1661,11 @@
   .custom-tab-button .nav-tabs {padding-bottom: 20px;}
   .custom-services::before, .custom-services::after {display: none;}
   .quick-nav-box-wrap {flex-direction: column;}
-  .quick-nav-box {width: 100%;height: 415px;}
-  .quick-nav-box-wrap .quick-nav-box:last-child {margin-top: 30px;}
+  .quick-nav-box {width: 100%;height: auto;padding: 40px 30px;}
   .inner-pricing-content.custom-pad {padding: 70px 0;}
+  .quick-nav-box .quick-nav-desc p {line-height: 24px;padding-top: 15px;}
+  .quick-nav-box .quick-nav-title {font-size: 18px;line-height: 25px;}
+  .quick-nav-box .custom-button {height: 40px;margin-top: 15px;}
 }
 
 @media (max-width: 575.98px){
@@ -1736,12 +1740,11 @@
   .inner-our-work {padding-top: 40px;}
   .custom-tab-button .nav-tabs .nav-link {font-size: 11px;padding: 6px 8px;}
   .custom-tab-button .nav-tabs {padding-bottom: 12px;}
-  .quick-nav-box {padding: 50px 30px;height: 425px;text-align: center;}
+  .quick-nav-box {padding: 40px 15px;text-align: center;}
   .inner-pricing-content.custom-pad {padding: 50px 0;}
+  .quick-nav-box .quick-nav-desc p {padding-top: 15px;}
 }
 
 @media only screen and (max-width: 480.98px) {
-  .quick-nav-box img {height: 70px;width: 70px;}
-  .quick-nav-box {padding: 25px 10px;height: 415px;}
-  .quick-nav-box .quick-nav-desc p {padding-top: 15px;}
+
 }
