@@ -11,7 +11,13 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1600px){
-
+/* fdev-dp */
+.pattern-animations-left {left: -16%;}
+.custom-banner-content h2 {font-size: 44px;line-height: 64px;}
+.about-us-right {padding: 0 20px 0 30px;}
+#tec-owl .abt-img-main {padding: 0 30px 0 10px;}
+.custom-tecnology .about-us-left::before {right: 10px;}
+/* fdev-dp */
 }
 @media (min-width: 1500px) and (max-width: 1600px){
 /* fdev-sb */
@@ -288,6 +294,16 @@
 .web-plan.clone-section.e-commerce.custom-pad .top-price-box {padding: 30px 0px 50px;}
 .web-plan.clone-section.e-commerce.custom-pad .container.custom-sidecontainer-clone {padding: 0 150px;}
 /*fdev-sg*/
+/* fdev-sb */
+.cus-quick-service-box {padding: 30px 20px;}
+.cus-quick-ser-content a {font-size: 16px;line-height: 20px;margin-bottom: 14px;min-height: 62px;}
+.cus-quick-ser-content p {line-height: 22px;font-size: 13px;}
+.abt-img-main {padding: 0 10px 0 25px;}
+#tec-owl .owl-stage-outer {padding: 30px 0px;}
+.custom-banner-content h2 {font-size: 44px;line-height: 64px;}
+.custom-banner-content {background-color: rgba(255,255,255,0.76);padding: 20px;}
+.custom-button {font-size: 12px;padding: 0 33px;}
+/* fdev-sb */
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -433,6 +449,16 @@
 .web-plan.clone-section.e-commerce.custom-pad .top-price-box {padding: 30px 0px 50px;}
 .web-plan.clone-section.e-commerce.custom-pad .container.custom-sidecontainer-clone {padding: 0 150px;}
 /*fdev-sg*/
+/* fdev-dp */
+.cus-quick-service-box {padding: 30px 20px;}
+.cus-quick-ser-content a {font-size: 16px;line-height: 20px;margin-bottom: 14px;min-height: 62px;}
+.cus-quick-ser-content p {line-height: 22px;font-size: 13px;}
+.abt-img-main {padding: 0 10px 0 25px;}
+#tec-owl .owl-stage-outer {padding: 30px 0px;}
+.custom-banner-content h2 {font-size: 44px;line-height: 64px;}
+.custom-banner-content {background-color: rgba(255,255,255,0.76);padding: 20px;}
+.custom-button {font-size: 12px;padding: 0 22px;}
+/* fdev-dp */
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -624,6 +650,20 @@
 .web-plan.clone-section.e-commerce.custom-pad [class*="col-"] {width: 100%;}
 .web-plan.clone-section.e-commerce.custom-pad .container.custom-sidecontainer-clone {padding: 0 15px;}
 /*fdev-sg*/
+/* fdev-dp */
+.pattern-animations-left {left: -26%;}
+.pattern-animations-right {right: -180px;}
+.custom-banner-content h2 span {justify-content: center;}
+.custom-banner-content {text-align: center;}
+.custom-banner-content h2 {font-size: 36px;line-height: 41px;margin-bottom: 24px; margin-top: 20px;}
+.cus-quick-service-box {margin-bottom: 30px;}
+.custom-quick-services .container .col-lg-12 .row .col-md-6:nth-last-child(-n+2) .cus-quick-service-box{margin-bottom: 0;}
+.custom-quick-services::after {height: 122px;top: -122px;}
+.custom-banner {padding: 130px 0 60px;}
+.cus-quick-ser-content a {margin-bottom: 14px;min-height: 55px;}
+.about-us-right {margin-top: 60px;}
+.custom-tecnology .about-us-right {margin-top: 0;margin-bottom: 60px;}
+/* fdev-dp */
 }
 
 
@@ -714,6 +754,18 @@
 .web-plan.clone-section.e-commerce.custom-pad .top-price-box {padding: 40px 0px 120px;}
 .all-plans.custom-pad .all-plans-extra-content {margin-top: 30px;}
 /*fdev-sg*/
+/* fdev-dp */
+.abt-img-main img {height: 420px;}
+.custom-banner-content h2 {font-size: 30px;}
+.custom-quick-services .container .col-lg-12 .row .col-md-6:nth-last-child(n+2) .cus-quick-service-box{margin-bottom: 30px;}
+.abt-img-main {padding: 0 20px 0 20px;}
+.about-us-right {padding: 0 40px 0 40px;}
+#tec-owl .abt-img-main img {height: 400px;box-shadow: 0px 0px 12px rgba(0,0,0,0.16);       object-position: 40% 100%;}
+#tec-owl .about-us-left {padding: 0 0px 0 0px;}
+.custom-tecnology .about-us-left {padding: 0 40px 0 0px;}
+.custom-tecnology .about-us-left::before {right: 10px;}
+.about-us-right p {line-height: 30px;font-size: 14px;}
+/* fdev-dp */
 }
 
 @media (max-width: 575.98px){
@@ -817,6 +869,14 @@
 .all-plans-content-wrap {gap: 0px 12px;}
 .all-plan-box {width: 100%;}
 /*fdev-sg*/
+/* fdev-dp */
+.custom-banner-image img {width: 90%;}
+.custom-banner-content {background-color: rgba(255,255,255,0.76);padding: 20px;}
+.custom-quick-services::after {height: 72px;top: -72px;background-size: cover;}
+.custom-banner {padding: 90px 0 20px;}
+.pattern-animations-left {left: -46%;}
+.pattern-animations-right {right: -250px;}
+/* fdev-dp */
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -840,5 +900,20 @@
 .web-plan-extra-content {margin-top: 25px;}
 .web-plan.clone-section.e-commerce.custom-pad .top-price-box {padding: 40px 0px 90px;}
 /*fdev-sg*/
+/* fdev-dp */
+.custom-about::before {width: 200px;transform: translateY(4%);}
+/* fdev-dp */
 }
-
+@media only screen and (max-width: 390px) {
+/* fdev-dp */
+.custom-banner {padding: 90px 0 0px;}
+.abt-img-main {padding: 0 0px 0 0px;}
+.about-us-left {padding: 0 14px 0 0px;}
+.about-us-right {padding: 0 0px 0 0px;}
+.custom-tecnology .custom-button {font-size: 12px;padding: 0 14px;}
+.custom-tecnology .about-us-left {padding: 0px 0px 0 0px;}
+#tec-owl .owl-stage-outer {padding: 30px 0px;}
+.custom-tecnology .about-us-left::before {display: none;}
+.custom-tecnology .about-us-right {margin-bottom: 10px;}
+/* fdev-dp */
+}
