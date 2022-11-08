@@ -561,6 +561,10 @@
     #tec-owl .about-us-left {padding: 0 0px 0 0px;}
     .custom-tecnology .about-us-left {padding: 0 40px 0 0px;}
     .custom-tecnology .about-us-left::before {right: 10px;}
+    .about-us-right p {
+        line-height: 30px;
+        font-size: 14px;
+      }
 }
 
 @media (max-width: 575.98px) {
