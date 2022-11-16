@@ -106,9 +106,9 @@
 }
 @media (min-width: 1366px) and (max-width: 1600px){
 .custom-inner-banner h1 {font-size: 67px;}
-.inner-banner-text {padding-left: 40px;}
-.custom-inner-banner .breadcrumb {width: 80%;}
-.custom-inner-banner .breadcrumb {right: 40px;}
+/* .inner-banner-text {padding-left: 40px;} */
+/* .custom-inner-banner .breadcrumb {width: 80%;} */
+/* .custom-inner-banner .breadcrumb {right: 40px;} */
 .custom-inner-banner {padding: 265px 0 170px 0;}
 /*fdev-sg*/
 .counter-content .count-number-and-unit.secondary-font {font-size: 40px;}
@@ -121,9 +121,9 @@
 }
 @media (min-width: 1200px) and (max-width: 1366px){
 .custom-inner-banner h1 {font-size: 64px;}
-.inner-banner-text {padding-left: 40px;}
-.custom-inner-banner .breadcrumb {right: 40px;}
-.custom-inner-banner .breadcrumb {width: 90%;}
+/* .inner-banner-text {padding-left: 40px;} */
+/* .custom-inner-banner .breadcrumb {right: 40px;} */
+/* .custom-inner-banner .breadcrumb {width: 90%;} */
 .custom-inner-banner {padding: 240px 0 140px 0;}
 /*fdev-sg*/
 .custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 100px;}
@@ -166,8 +166,8 @@
 .custom-heading .heading {font-size: 38px;line-height: 52px;}
 .custom-inner-banner h1 {font-size: 54px;margin-top: 6px;}
 .custom-inner-banner h5 {font-size: 15px;}
-.inner-banner-text {padding-left: 40px;}
-.custom-inner-banner .breadcrumb {right: 40px;}
+/* .inner-banner-text {padding-left: 40px;} */
+/* .custom-inner-banner .breadcrumb {right: 40px;} */
 .custom-inner-banner .breadcrumb {width: 100%;}
 .custom-inner-banner .breadcrumb-item a {font-size: 12px;}
 .custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
@@ -314,8 +314,8 @@
 .custom-heading .heading {font-size: 38px;line-height: 52px;}
 .custom-inner-banner h1 {font-size: 50px;margin-top: 6px;}
 .custom-inner-banner h5 {font-size: 14px;}
-.inner-banner-text {padding-left: 40px;}
-.custom-inner-banner .breadcrumb {right: 40px;}
+/* .inner-banner-text {padding-left: 40px;} */
+/* .custom-inner-banner .breadcrumb {right: 40px;} */
 .custom-inner-banner .breadcrumb {width: 100%;}
 .custom-inner-banner .breadcrumb-item a {font-size: 12px;}
 .custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
@@ -471,9 +471,9 @@
 .custom-heading .heading {font-size: 38px;line-height: 52px;}
 .custom-inner-banner h1 {font-size: 45px;margin-top: 6px;}
 .custom-inner-banner h5 {font-size: 14px;}
-.custom-inner-banner {padding: 170px 0 160px 0;}
+.custom-inner-banner {padding: 170px 0 90px 0;}
 .custom-inner-banner nav {text-align: center;}
-.custom-inner-banner .breadcrumb {right: 0px;left:0;margin:0 auto;width: 30%;font-size: 12px;top: 20px;}
+.custom-inner-banner .breadcrumb {font-size: 12px;}
 .custom-inner-banner .breadcrumb-item a {font-size: 12px;}
 .custom-inner-banner .breadcrumb-item.active {font-size: 12px;}
 
@@ -672,9 +672,9 @@
 .custom-button {height: 46px;padding: 0 22px;} 
 .custom-heading .heading {font-size: 28px;line-height: 34px;}
 .custom-heading .sub-heading {margin-bottom: 10px;} 
-.inner-banner-text {padding-left: 0px;}
-.custom-inner-banner .breadcrumb {width: 40%;}
-.custom-inner-banner {padding: 160px 0 160px 0;}
+/* .inner-banner-text {padding-left: 0px;} */
+/* .custom-inner-banner .breadcrumb {width: 40%;} */
+.custom-inner-banner {padding: 160px 0 90px 0;}
 /* fdev-sb */
 .custom-header .navbar {padding: 15px 0;}
 .custom-header .navbar-brand img {height: 33px;}
@@ -775,8 +775,8 @@
 .custom-heading .heading {font-size: 24px;line-height: 28px;}
 .custom-heading .sub-heading::after, .custom-heading .sub-heading::before {top: 41%;}
 .custom-inner-banner h1 {font-size: 40px;}
-.custom-inner-banner .breadcrumb {width: 45%;}
-.custom-inner-banner {padding: 150px 0 160px 0;}
+/* .custom-inner-banner .breadcrumb {width: 45%;} */
+.custom-inner-banner {padding: 150px 0 90px 0;}
 /* fdev-sb */
 .custom-header .custom-navbar-right .custom-button, .custom-header .lang-select-option .form-select {display: none;}
 .custom-header .custom-navbar-toggle::before {display: none;}
@@ -883,9 +883,9 @@
 .custom-inner-banner h1 {font-size: 40px;margin-top: 4px;}
 .custom-inner-banner h5 {font-size: 12px;}
 .custom-inner-banner h1 {font-size: 30px;}
-.custom-inner-banner .breadcrumb {width: 60%;padding: 15px 0;}
+.custom-inner-banner .breadcrumb {padding: 15px 20px;}
 .custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {top: 18px;right: 39px;}
-.custom-inner-banner {padding: 120px 0 140px 0;}
+.custom-inner-banner {padding: 120px 0 60px 0;}
 /*fdev-sg*/
 .custom-testimonial.inner-testimonial.custom-pad {padding-bottom: 50px;}
 .shopping-experience-img-box-1 img {height: 400px;}
